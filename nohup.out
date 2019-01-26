@@ -1,0 +1,2305 @@
+Loading libraries, please wait...
+Loaded 0 recipes
+[08:41:57 INFO]: Loaded 0 recipes
+[08:41:57 INFO]: Starting minecraft server version 1.13.2
+[08:41:57 INFO]: Loading properties
+[08:41:57 ERROR]: Exception handling console input
+java.io.IOException: Bad file descriptor
+	at java.io.FileInputStream.readBytes(Native Method) ~[?:?]
+	at java.io.FileInputStream.read(FileInputStream.java:280) ~[?:?]
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:252) ~[?:?]
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:271) ~[?:?]
+	at org.bukkit.craftbukkit.libs.jline.internal.NonBlockingInputStream.read(NonBlockingInputStream.java:248) ~[spigot-1.13.2.jar:git-Spigot-f56e2e7-1a64d4a]
+	at org.bukkit.craftbukkit.libs.jline.internal.InputStreamReader.read(InputStreamReader.java:261) ~[spigot-1.13.2.jar:git-Spigot-f56e2e7-1a64d4a]
+	at org.bukkit.craftbukkit.libs.jline.internal.InputStreamReader.read(InputStreamReader.java:198) ~[spigot-1.13.2.jar:git-Spigot-f56e2e7-1a64d4a]
+	at org.bukkit.craftbukkit.libs.jline.console.ConsoleReader.readCharacter(ConsoleReader.java:2145) ~[spigot-1.13.2.jar:git-Spigot-f56e2e7-1a64d4a]
+	at org.bukkit.craftbukkit.libs.jline.console.ConsoleReader.readLineSimple(ConsoleReader.java:3183) ~[spigot-1.13.2.jar:git-Spigot-f56e2e7-1a64d4a]
+	at org.bukkit.craftbukkit.libs.jline.console.ConsoleReader.readLine(ConsoleReader.java:2333) ~[spigot-1.13.2.jar:git-Spigot-f56e2e7-1a64d4a]
+	at org.bukkit.craftbukkit.libs.jline.console.ConsoleReader.readLine(ConsoleReader.java:2269) ~[spigot-1.13.2.jar:git-Spigot-f56e2e7-1a64d4a]
+	at org.bukkit.craftbukkit.libs.jline.console.ConsoleReader.readLine(ConsoleReader.java:2257) ~[spigot-1.13.2.jar:git-Spigot-f56e2e7-1a64d4a]
+	at net.minecraft.server.v1_13_R2.DedicatedServer$2.run(DedicatedServer.java:93) [spigot-1.13.2.jar:git-Spigot-f56e2e7-1a64d4a]
+[08:41:57 INFO]: Default game type: SURVIVAL
+[08:41:57 INFO]: This server is running CraftBukkit version git-Spigot-f56e2e7-1a64d4a (MC: 1.13.2) (Implementing API version 1.13.2-R0.1-SNAPSHOT)
+[08:41:57 INFO]: Server Ping Player Sample Count: 12
+[08:41:57 INFO]: Using 4 threads for Netty based IO
+[08:41:57 INFO]: Debug logging is disabled
+[08:41:57 INFO]: Generating keypair
+[08:41:57 INFO]: Starting Minecraft server on *:25565
+[08:41:57 INFO]: Using epoll channel type
+[08:41:58 WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[08:41:58 WARN]: The server will make no attempt to authenticate usernames. Beware.
+[08:41:58 WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[08:41:58 WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[08:41:58 INFO]: Preparing level "kevlar"
+[08:41:58 INFO]: Found new data pack file/bukkit, loading it automatically
+[08:41:58 INFO]: Found new data pack vanilla, loading it automatically
+[08:41:58 INFO]: Reloading ResourceManager: Default, bukkit
+[08:41:58 INFO]: Loaded 524 recipes
+[08:41:59 INFO]: -------- World Settings For [kevlar] --------
+[08:41:59 INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[08:41:59 INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[08:41:59 INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[08:41:59 INFO]: Random Lighting Updates: false
+[08:41:59 INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[08:41:59 INFO]: Max TNT Explosions: 100
+[08:41:59 INFO]: Experience Merge Radius: 3.0
+[08:41:59 INFO]: Mob Spawn Range: 6
+[08:41:59 INFO]: Cactus Growth Modifier: 100%
+[08:41:59 INFO]: Cane Growth Modifier: 100%
+[08:41:59 INFO]: Melon Growth Modifier: 100%
+[08:41:59 INFO]: Mushroom Growth Modifier: 100%
+[08:41:59 INFO]: Pumpkin Growth Modifier: 100%
+[08:41:59 INFO]: Sapling Growth Modifier: 100%
+[08:41:59 INFO]: Beetroot Growth Modifier: 100%
+[08:41:59 INFO]: Carrot Growth Modifier: 100%
+[08:41:59 INFO]: Potato Growth Modifier: 100%
+[08:41:59 INFO]: Wheat Growth Modifier: 100%
+[08:41:59 INFO]: NetherWart Growth Modifier: 100%
+[08:41:59 INFO]: Vine Growth Modifier: 100%
+[08:41:59 INFO]: Cocoa Growth Modifier: 100%
+[08:41:59 INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[08:41:59 INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[08:41:59 INFO]: Item Merge Radius: 2.5
+[08:41:59 INFO]: Item Despawn Rate: 6000
+[08:41:59 INFO]: Arrow Despawn Rate: 1200
+[08:41:59 INFO]: View Distance: 10
+[08:41:59 INFO]: Zombie Aggressive Towards Villager: true
+[08:41:59 INFO]: Nerfing mobs spawned from spawners: false
+[08:41:59 INFO]: -------- World Settings For [kevlar_nether] --------
+[08:41:59 INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[08:41:59 INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[08:41:59 INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[08:41:59 INFO]: Random Lighting Updates: false
+[08:41:59 INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[08:41:59 INFO]: Max TNT Explosions: 100
+[08:41:59 INFO]: Experience Merge Radius: 3.0
+[08:41:59 INFO]: Mob Spawn Range: 6
+[08:41:59 INFO]: Cactus Growth Modifier: 100%
+[08:41:59 INFO]: Cane Growth Modifier: 100%
+[08:41:59 INFO]: Melon Growth Modifier: 100%
+[08:41:59 INFO]: Mushroom Growth Modifier: 100%
+[08:41:59 INFO]: Pumpkin Growth Modifier: 100%
+[08:41:59 INFO]: Sapling Growth Modifier: 100%
+[08:41:59 INFO]: Beetroot Growth Modifier: 100%
+[08:41:59 INFO]: Carrot Growth Modifier: 100%
+[08:41:59 INFO]: Potato Growth Modifier: 100%
+[08:41:59 INFO]: Wheat Growth Modifier: 100%
+[08:41:59 INFO]: NetherWart Growth Modifier: 100%
+[08:41:59 INFO]: Vine Growth Modifier: 100%
+[08:41:59 INFO]: Cocoa Growth Modifier: 100%
+[08:41:59 INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[08:41:59 INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[08:41:59 INFO]: Item Merge Radius: 2.5
+[08:41:59 INFO]: Item Despawn Rate: 6000
+[08:41:59 INFO]: Arrow Despawn Rate: 1200
+[08:41:59 INFO]: View Distance: 10
+[08:41:59 INFO]: Zombie Aggressive Towards Villager: true
+[08:41:59 INFO]: Nerfing mobs spawned from spawners: false
+[08:41:59 INFO]: -------- World Settings For [kevlar_the_end] --------
+[08:41:59 INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[08:41:59 INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[08:41:59 INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[08:41:59 INFO]: Random Lighting Updates: false
+[08:41:59 INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[08:41:59 INFO]: Max TNT Explosions: 100
+[08:41:59 INFO]: Experience Merge Radius: 3.0
+[08:41:59 INFO]: Mob Spawn Range: 6
+[08:41:59 INFO]: Cactus Growth Modifier: 100%
+[08:41:59 INFO]: Cane Growth Modifier: 100%
+[08:41:59 INFO]: Melon Growth Modifier: 100%
+[08:41:59 INFO]: Mushroom Growth Modifier: 100%
+[08:41:59 INFO]: Pumpkin Growth Modifier: 100%
+[08:41:59 INFO]: Sapling Growth Modifier: 100%
+[08:41:59 INFO]: Beetroot Growth Modifier: 100%
+[08:41:59 INFO]: Carrot Growth Modifier: 100%
+[08:41:59 INFO]: Potato Growth Modifier: 100%
+[08:41:59 INFO]: Wheat Growth Modifier: 100%
+[08:41:59 INFO]: NetherWart Growth Modifier: 100%
+[08:41:59 INFO]: Vine Growth Modifier: 100%
+[08:41:59 INFO]: Cocoa Growth Modifier: 100%
+[08:41:59 INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[08:41:59 INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[08:41:59 INFO]: Item Merge Radius: 2.5
+[08:41:59 INFO]: Item Despawn Rate: 6000
+[08:41:59 INFO]: Arrow Despawn Rate: 1200
+[08:41:59 INFO]: View Distance: 10
+[08:41:59 INFO]: Zombie Aggressive Towards Villager: true
+[08:41:59 INFO]: Nerfing mobs spawned from spawners: false
+[08:41:59 INFO]: Preparing start region for level minecraft:overworld (Seed: -6429030645283485143)
+[08:42:05 INFO]: Preparing spawn area: 4%
+[08:42:06 INFO]: UUID of player Zortwil is c94597c9-f9a6-3828-80f3-38dbd66e121c
+[08:42:06 INFO]: Preparing spawn area: 8%
+[08:42:07 INFO]: Preparing spawn area: 12%
+[08:42:08 INFO]: Preparing spawn area: 16%
+[08:42:09 INFO]: Preparing spawn area: 20%
+[08:42:09 INFO]: Preparing spawn area: 24%
+[08:42:09 INFO]: Preparing spawn area: 28%
+[08:42:10 INFO]: Preparing spawn area: 32%
+[08:42:10 INFO]: Preparing spawn area: 36%
+[08:42:11 INFO]: Preparing spawn area: 40%
+[08:42:12 INFO]: Preparing spawn area: 44%
+[08:42:12 INFO]: Preparing spawn area: 48%
+[08:42:13 INFO]: Preparing spawn area: 52%
+[08:42:13 INFO]: Preparing spawn area: 56%
+[08:42:13 INFO]: Preparing spawn area: 60%
+[08:42:14 INFO]: Preparing spawn area: 64%
+[08:42:14 INFO]: Preparing spawn area: 68%
+[08:42:15 INFO]: Preparing spawn area: 72%
+[08:42:15 INFO]: Preparing spawn area: 76%
+[08:42:15 INFO]: Preparing spawn area: 80%
+[08:42:16 INFO]: Preparing spawn area: 84%
+[08:42:16 INFO]: Preparing spawn area: 88%
+[08:42:16 INFO]: Preparing spawn area: 92%
+[08:42:17 INFO]: Preparing spawn area: 96%
+[08:42:17 INFO]: Preparing spawn area: 100%
+[08:42:17 INFO]: Preparing start region for level minecraft:the_nether (Seed: -5412670237699833762)
+[08:42:18 INFO]: Preparing spawn area: 4%
+[08:42:18 INFO]: Preparing spawn area: 8%
+[08:42:18 INFO]: Preparing spawn area: 12%
+[08:42:18 INFO]: Preparing spawn area: 16%
+[08:42:19 INFO]: Preparing spawn area: 20%
+[08:42:19 INFO]: Preparing spawn area: 24%
+[08:42:19 INFO]: Preparing spawn area: 28%
+[08:42:19 INFO]: Preparing spawn area: 32%
+[08:42:20 INFO]: Preparing spawn area: 36%
+[08:42:20 INFO]: Preparing spawn area: 40%
+[08:42:20 INFO]: Preparing spawn area: 44%
+[08:42:20 INFO]: Preparing spawn area: 48%
+[08:42:21 INFO]: Preparing spawn area: 52%
+[08:42:21 INFO]: Preparing spawn area: 56%
+[08:42:21 INFO]: Preparing spawn area: 60%
+[08:42:22 INFO]: Preparing spawn area: 64%
+[08:42:22 INFO]: Preparing spawn area: 68%
+[08:42:22 INFO]: Preparing spawn area: 72%
+[08:42:22 INFO]: Preparing spawn area: 76%
+[08:42:23 INFO]: Preparing spawn area: 80%
+[08:42:23 INFO]: Preparing spawn area: 84%
+[08:42:23 INFO]: Preparing spawn area: 88%
+[08:42:24 INFO]: Preparing spawn area: 92%
+[08:42:24 INFO]: Preparing spawn area: 96%
+[08:42:26 INFO]: Preparing spawn area: 100%
+[08:42:26 INFO]: Preparing start region for level minecraft:the_end (Seed: -5412670237699833762)
+[08:42:26 INFO]: Preparing spawn area: 4%
+[08:42:26 INFO]: Preparing spawn area: 8%
+[08:42:26 INFO]: Preparing spawn area: 12%
+[08:42:26 INFO]: Preparing spawn area: 16%
+[08:42:26 INFO]: Preparing spawn area: 20%
+[08:42:26 INFO]: Preparing spawn area: 24%
+[08:42:26 INFO]: Preparing spawn area: 28%
+[08:42:26 INFO]: Preparing spawn area: 32%
+[08:42:26 INFO]: Preparing spawn area: 36%
+[08:42:27 INFO]: Preparing spawn area: 40%
+[08:42:27 INFO]: Preparing spawn area: 44%
+[08:42:27 INFO]: Preparing spawn area: 48%
+[08:42:27 INFO]: Preparing spawn area: 52%
+[08:42:27 INFO]: Preparing spawn area: 56%
+[08:42:27 INFO]: Preparing spawn area: 60%
+[08:42:27 INFO]: Preparing spawn area: 64%
+[08:42:27 INFO]: Preparing spawn area: 68%
+[08:42:27 INFO]: Preparing spawn area: 72%
+[08:42:28 INFO]: Preparing spawn area: 76%
+[08:42:28 INFO]: Preparing spawn area: 80%
+[08:42:28 INFO]: Preparing spawn area: 84%
+[08:42:28 INFO]: Preparing spawn area: 88%
+[08:42:28 INFO]: Preparing spawn area: 92%
+[08:42:28 INFO]: Preparing spawn area: 96%
+[08:42:28 INFO]: Preparing spawn area: 100%
+[08:42:28 INFO]: Time elapsed: 28689 ms
+[08:42:28 INFO]: Server permissions file permissions.yml is empty, ignoring it
+[08:42:28 INFO]: Done (30.343s)! For help, type "help"
+[08:42:29 INFO]: Zortwil[/127.0.0.1:45050] logged in with entity id 268 at ([kevlar]134.5, 66.0, 252.5)
+[08:43:12 INFO]: UUID of player Schatz is cb2e9018-573e-308d-a7e4-9c89f5ac4e8f
+[08:43:12 INFO]: Schatz[/127.0.0.1:45144] logged in with entity id 563 at ([kevlar]122.5, 65.0, 257.5)
+[08:43:18 INFO]: <Zortwil> ni hao
+[08:44:32 INFO]: Schatz was slain by Zortwil
+[08:44:56 INFO]: Zortwil was slain by Zombie
+[08:46:14 INFO]: Zortwil was slain by Zombie
+[08:46:35 INFO]: Zortwil was slain by Spider
+[08:47:08 INFO]: Zortwil lost connection: Disconnected
+[08:47:08 INFO]: Zortwil left the game
+[08:47:17 INFO]: UUID of player Zortwil is c94597c9-f9a6-3828-80f3-38dbd66e121c
+[08:47:17 INFO]: Zortwil[/127.0.0.1:45154] logged in with entity id 1265 at ([kevlar]134.65953521059578, 64.77662147600688, 273.9579415964104)
+[08:48:40 INFO]: Zortwil was slain by Zombie
+[08:49:22 INFO]: Zortwil was slain by Zombie
+[08:50:54 INFO]: Schatz was slain by Zortwil
+[08:51:51 INFO]: Zortwil has made the advancement [Monster Hunter]
+[08:52:01 INFO]: Schatz has made the advancement [Monster Hunter]
+[08:53:36 INFO]: Zortwil hit the ground too hard
+[08:55:45 INFO]: Stopping server
+[08:55:45 INFO]: Saving players
+2019-01-22 08:55:45,430 Server thread WARN Unable to register Log4j shutdown hook because JVM is shutting down. Using SimpleLogger
+Loading libraries, please wait...
+Loaded 0 recipes
+[08:57:56 INFO]: Loaded 0 recipes
+[08:57:56 INFO]: Starting minecraft server version 1.13.2
+[08:57:56 INFO]: Loading properties
+[08:57:56 ERROR]: Exception handling console input
+java.io.IOException: Bad file descriptor
+	at java.io.FileInputStream.readBytes(Native Method) ~[?:?]
+	at java.io.FileInputStream.read(FileInputStream.java:280) ~[?:?]
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:252) ~[?:?]
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:271) ~[?:?]
+	at org.bukkit.craftbukkit.libs.jline.internal.NonBlockingInputStream.read(NonBlockingInputStream.java:248) ~[spigot-1.13.2.jar:git-Spigot-f56e2e7-1a64d4a]
+	at org.bukkit.craftbukkit.libs.jline.internal.InputStreamReader.read(InputStreamReader.java:261) ~[spigot-1.13.2.jar:git-Spigot-f56e2e7-1a64d4a]
+	at org.bukkit.craftbukkit.libs.jline.internal.InputStreamReader.read(InputStreamReader.java:198) ~[spigot-1.13.2.jar:git-Spigot-f56e2e7-1a64d4a]
+	at org.bukkit.craftbukkit.libs.jline.console.ConsoleReader.readCharacter(ConsoleReader.java:2145) ~[spigot-1.13.2.jar:git-Spigot-f56e2e7-1a64d4a]
+	at org.bukkit.craftbukkit.libs.jline.console.ConsoleReader.readLineSimple(ConsoleReader.java:3183) ~[spigot-1.13.2.jar:git-Spigot-f56e2e7-1a64d4a]
+	at org.bukkit.craftbukkit.libs.jline.console.ConsoleReader.readLine(ConsoleReader.java:2333) ~[spigot-1.13.2.jar:git-Spigot-f56e2e7-1a64d4a]
+	at org.bukkit.craftbukkit.libs.jline.console.ConsoleReader.readLine(ConsoleReader.java:2269) ~[spigot-1.13.2.jar:git-Spigot-f56e2e7-1a64d4a]
+	at org.bukkit.craftbukkit.libs.jline.console.ConsoleReader.readLine(ConsoleReader.java:2257) ~[spigot-1.13.2.jar:git-Spigot-f56e2e7-1a64d4a]
+	at net.minecraft.server.v1_13_R2.DedicatedServer$2.run(DedicatedServer.java:93) [spigot-1.13.2.jar:git-Spigot-f56e2e7-1a64d4a]
+[08:57:56 INFO]: Default game type: SURVIVAL
+[08:57:56 INFO]: This server is running CraftBukkit version git-Spigot-f56e2e7-1a64d4a (MC: 1.13.2) (Implementing API version 1.13.2-R0.1-SNAPSHOT)
+[08:57:56 INFO]: Server Ping Player Sample Count: 12
+[08:57:56 INFO]: Using 4 threads for Netty based IO
+[08:57:56 INFO]: Debug logging is disabled
+[08:57:56 INFO]: Generating keypair
+[08:57:56 INFO]: Starting Minecraft server on *:25565
+[08:57:56 INFO]: Using epoll channel type
+[08:57:57 WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[08:57:57 WARN]: The server will make no attempt to authenticate usernames. Beware.
+[08:57:57 WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[08:57:57 WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[08:57:57 INFO]: Preparing level "world"
+[08:57:57 INFO]: Found new data pack file/bukkit, loading it automatically
+[08:57:57 INFO]: Found new data pack vanilla, loading it automatically
+[08:57:57 INFO]: Reloading ResourceManager: Default, bukkit
+[08:57:57 INFO]: Loaded 524 recipes
+[08:57:58 INFO]: -------- World Settings For [world] --------
+[08:57:58 INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[08:57:58 INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[08:57:58 INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[08:57:58 INFO]: Random Lighting Updates: false
+[08:57:58 INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[08:57:58 INFO]: Max TNT Explosions: 100
+[08:57:58 INFO]: Experience Merge Radius: 3.0
+[08:57:58 INFO]: Mob Spawn Range: 6
+[08:57:58 INFO]: Cactus Growth Modifier: 100%
+[08:57:58 INFO]: Cane Growth Modifier: 100%
+[08:57:58 INFO]: Melon Growth Modifier: 100%
+[08:57:58 INFO]: Mushroom Growth Modifier: 100%
+[08:57:58 INFO]: Pumpkin Growth Modifier: 100%
+[08:57:58 INFO]: Sapling Growth Modifier: 100%
+[08:57:58 INFO]: Beetroot Growth Modifier: 100%
+[08:57:58 INFO]: Carrot Growth Modifier: 100%
+[08:57:58 INFO]: Potato Growth Modifier: 100%
+[08:57:58 INFO]: Wheat Growth Modifier: 100%
+[08:57:58 INFO]: NetherWart Growth Modifier: 100%
+[08:57:58 INFO]: Vine Growth Modifier: 100%
+[08:57:58 INFO]: Cocoa Growth Modifier: 100%
+[08:57:58 INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[08:57:58 INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[08:57:58 INFO]: Item Merge Radius: 2.5
+[08:57:58 INFO]: Item Despawn Rate: 6000
+[08:57:58 INFO]: Arrow Despawn Rate: 1200
+[08:57:58 INFO]: View Distance: 10
+[08:57:58 INFO]: Zombie Aggressive Towards Villager: true
+[08:57:58 INFO]: Nerfing mobs spawned from spawners: false
+[08:58:03 INFO]: -------- World Settings For [world_nether] --------
+[08:58:03 INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[08:58:03 INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[08:58:03 INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[08:58:03 INFO]: Random Lighting Updates: false
+[08:58:03 INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[08:58:03 INFO]: Max TNT Explosions: 100
+[08:58:03 INFO]: Experience Merge Radius: 3.0
+[08:58:03 INFO]: Mob Spawn Range: 6
+[08:58:03 INFO]: Cactus Growth Modifier: 100%
+[08:58:03 INFO]: Cane Growth Modifier: 100%
+[08:58:03 INFO]: Melon Growth Modifier: 100%
+[08:58:03 INFO]: Mushroom Growth Modifier: 100%
+[08:58:03 INFO]: Pumpkin Growth Modifier: 100%
+[08:58:03 INFO]: Sapling Growth Modifier: 100%
+[08:58:03 INFO]: Beetroot Growth Modifier: 100%
+[08:58:03 INFO]: Carrot Growth Modifier: 100%
+[08:58:03 INFO]: Potato Growth Modifier: 100%
+[08:58:03 INFO]: Wheat Growth Modifier: 100%
+[08:58:03 INFO]: NetherWart Growth Modifier: 100%
+[08:58:03 INFO]: Vine Growth Modifier: 100%
+[08:58:03 INFO]: Cocoa Growth Modifier: 100%
+[08:58:03 INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[08:58:03 INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[08:58:03 INFO]: Item Merge Radius: 2.5
+[08:58:03 INFO]: Item Despawn Rate: 6000
+[08:58:03 INFO]: Arrow Despawn Rate: 1200
+[08:58:03 INFO]: View Distance: 10
+[08:58:03 INFO]: Zombie Aggressive Towards Villager: true
+[08:58:03 INFO]: Nerfing mobs spawned from spawners: false
+[08:58:03 INFO]: -------- World Settings For [world_the_end] --------
+[08:58:03 INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[08:58:03 INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[08:58:03 INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[08:58:03 INFO]: Random Lighting Updates: false
+[08:58:03 INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[08:58:03 INFO]: Max TNT Explosions: 100
+[08:58:03 INFO]: Experience Merge Radius: 3.0
+[08:58:03 INFO]: Mob Spawn Range: 6
+[08:58:03 INFO]: Cactus Growth Modifier: 100%
+[08:58:03 INFO]: Cane Growth Modifier: 100%
+[08:58:03 INFO]: Melon Growth Modifier: 100%
+[08:58:03 INFO]: Mushroom Growth Modifier: 100%
+[08:58:03 INFO]: Pumpkin Growth Modifier: 100%
+[08:58:03 INFO]: Sapling Growth Modifier: 100%
+[08:58:03 INFO]: Beetroot Growth Modifier: 100%
+[08:58:03 INFO]: Carrot Growth Modifier: 100%
+[08:58:03 INFO]: Potato Growth Modifier: 100%
+[08:58:03 INFO]: Wheat Growth Modifier: 100%
+[08:58:03 INFO]: NetherWart Growth Modifier: 100%
+[08:58:03 INFO]: Vine Growth Modifier: 100%
+[08:58:03 INFO]: Cocoa Growth Modifier: 100%
+[08:58:03 INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[08:58:03 INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[08:58:03 INFO]: Item Merge Radius: 2.5
+[08:58:03 INFO]: Item Despawn Rate: 6000
+[08:58:03 INFO]: Arrow Despawn Rate: 1200
+[08:58:03 INFO]: View Distance: 10
+[08:58:03 INFO]: Zombie Aggressive Towards Villager: true
+[08:58:03 INFO]: Nerfing mobs spawned from spawners: false
+[08:58:03 INFO]: Preparing start region for level minecraft:overworld (Seed: -6344503468567166097)
+[08:58:07 INFO]: Preparing spawn area: 4%
+[08:58:08 INFO]: Preparing spawn area: 8%
+[08:58:09 INFO]: Preparing spawn area: 12%
+[08:58:10 INFO]: Preparing spawn area: 16%
+[08:58:11 INFO]: Preparing spawn area: 20%
+[08:58:12 INFO]: Preparing spawn area: 24%
+[08:58:13 INFO]: Preparing spawn area: 28%
+[08:58:14 INFO]: Preparing spawn area: 32%
+[08:58:15 INFO]: Preparing spawn area: 36%
+[08:58:16 INFO]: Preparing spawn area: 40%
+[08:58:17 INFO]: Preparing spawn area: 44%
+[08:58:17 INFO]: Preparing spawn area: 48%
+[08:58:18 INFO]: Preparing spawn area: 52%
+[08:58:19 INFO]: Preparing spawn area: 56%
+[08:58:20 INFO]: Preparing spawn area: 60%
+[08:58:21 INFO]: Preparing spawn area: 64%
+[08:58:22 INFO]: Preparing spawn area: 68%
+[08:58:23 INFO]: Preparing spawn area: 72%
+[08:58:24 INFO]: Preparing spawn area: 76%
+[08:58:25 INFO]: Preparing spawn area: 80%
+[08:58:26 INFO]: Preparing spawn area: 84%
+[08:58:27 INFO]: Preparing spawn area: 88%
+[08:58:28 INFO]: Preparing spawn area: 92%
+[08:58:29 INFO]: Preparing spawn area: 96%
+[08:58:30 INFO]: Preparing spawn area: 100%
+[08:58:30 INFO]: Preparing start region for level minecraft:the_nether (Seed: -6344503468567166097)
+[08:58:32 INFO]: Preparing spawn area: 4%
+[08:58:33 INFO]: Preparing spawn area: 8%
+[08:58:33 INFO]: Preparing spawn area: 12%
+[08:58:33 INFO]: Preparing spawn area: 16%
+[08:58:34 INFO]: Preparing spawn area: 20%
+[08:58:34 INFO]: Preparing spawn area: 24%
+[08:58:34 INFO]: Preparing spawn area: 28%
+[08:58:35 INFO]: Preparing spawn area: 32%
+[08:58:35 INFO]: Preparing spawn area: 36%
+[08:58:35 INFO]: Preparing spawn area: 40%
+[08:58:36 INFO]: Preparing spawn area: 44%
+[08:58:36 INFO]: Preparing spawn area: 48%
+[08:58:36 INFO]: Preparing spawn area: 52%
+[08:58:37 INFO]: Preparing spawn area: 56%
+[08:58:37 INFO]: Preparing spawn area: 60%
+[08:58:37 INFO]: Preparing spawn area: 64%
+[08:58:38 INFO]: Preparing spawn area: 68%
+[08:58:38 INFO]: Preparing spawn area: 72%
+[08:58:39 INFO]: Preparing spawn area: 76%
+[08:58:39 INFO]: Preparing spawn area: 80%
+[08:58:39 INFO]: Preparing spawn area: 84%
+[08:58:40 INFO]: Preparing spawn area: 88%
+[08:58:40 INFO]: Preparing spawn area: 92%
+[08:58:40 INFO]: Preparing spawn area: 96%
+[08:58:41 INFO]: Preparing spawn area: 100%
+[08:58:41 INFO]: Preparing start region for level minecraft:the_end (Seed: -6344503468567166097)
+[08:58:41 INFO]: Preparing spawn area: 4%
+[08:58:41 INFO]: Preparing spawn area: 8%
+[08:58:41 INFO]: Preparing spawn area: 12%
+[08:58:41 INFO]: Preparing spawn area: 16%
+[08:58:41 INFO]: Preparing spawn area: 20%
+[08:58:42 INFO]: Preparing spawn area: 24%
+[08:58:42 INFO]: Preparing spawn area: 28%
+[08:58:42 INFO]: Preparing spawn area: 32%
+[08:58:42 INFO]: Preparing spawn area: 36%
+[08:58:42 INFO]: Preparing spawn area: 40%
+[08:58:42 INFO]: Preparing spawn area: 44%
+[08:58:42 INFO]: Preparing spawn area: 48%
+[08:58:42 INFO]: Preparing spawn area: 52%
+[08:58:42 INFO]: Preparing spawn area: 56%
+[08:58:42 INFO]: Preparing spawn area: 60%
+[08:58:42 INFO]: Preparing spawn area: 64%
+[08:58:42 INFO]: Preparing spawn area: 68%
+[08:58:42 INFO]: Preparing spawn area: 72%
+[08:58:42 INFO]: Preparing spawn area: 76%
+[08:58:42 INFO]: Preparing spawn area: 80%
+[08:58:43 INFO]: Preparing spawn area: 84%
+[08:58:43 INFO]: Preparing spawn area: 88%
+[08:58:43 INFO]: Preparing spawn area: 92%
+[08:58:43 INFO]: Preparing spawn area: 96%
+[08:58:43 INFO]: Preparing spawn area: 100%
+[08:58:43 INFO]: Time elapsed: 40000 ms
+[08:58:43 INFO]: Server permissions file permissions.yml is empty, ignoring it
+[08:58:43 INFO]: Done (46.263s)! For help, type "help"
+[08:58:49 INFO]: UUID of player K_Scratch is 1e0eb81f-404b-3118-be3e-1677318cbf7c
+[08:58:49 INFO]: K_Scratch[/127.0.0.1:45424] logged in with entity id 494 at ([world]-219.5, 67.0, -196.5)
+[08:58:55 INFO]: UUID of player Zortwil is c94597c9-f9a6-3828-80f3-38dbd66e121c
+[08:58:55 INFO]: Zortwil[/127.0.0.1:45426] logged in with entity id 821 at ([world]-227.5, 69.0, -187.5)
+[08:59:53 INFO]: UUID of player Schatz is cb2e9018-573e-308d-a7e4-9c89f5ac4e8f
+[08:59:53 INFO]: Schatz[/127.0.0.1:45428] logged in with entity id 985 at ([world]-228.5, 68.0, -188.5)
+[09:00:08 INFO]: Zortwil lost connection: Disconnected
+[09:00:08 INFO]: Zortwil left the game
+[09:00:54 INFO]: UUID of player Zortwil is c94597c9-f9a6-3828-80f3-38dbd66e121c
+[09:00:54 INFO]: Zortwil[/127.0.0.1:45432] logged in with entity id 1096 at ([world]-225.69999998807907, 70.0, -182.77454636482983)
+[09:01:37 INFO]: Zortwil issued server command: /sethome
+[09:01:40 INFO]: Zortwil issued server command: /help
+[09:04:30 INFO]: K_Scratch issued server command: /spawn
+[09:04:36 INFO]: K_Scratch issued server command: /get
+[09:04:45 INFO]: K_Scratch issued server command: /give
+[09:05:29 INFO]: Zortwil has made the advancement [Stone Age]
+[09:05:31 INFO]: Schatz has made the advancement [Stone Age]
+[09:05:55 INFO]: Zortwil issued server command: /setspawn
+[09:06:20 INFO]: K_Scratch has made the advancement [Stone Age]
+[09:06:22 INFO]: Schatz has made the advancement [Getting an Upgrade]
+[09:08:10 INFO]: Zortwil lost connection: Disconnected
+[09:08:10 INFO]: Zortwil left the game
+[09:09:13 INFO]: UUID of player matt18990 is db33f881-694f-3465-ac7f-128974eb7f31
+[09:09:13 INFO]: matt18990[/127.0.0.1:45610] logged in with entity id 3925 at ([world]-227.5, 68.0, -190.5)
+[09:13:11 INFO]: K_Scratch lost connection: Disconnected
+[09:13:11 INFO]: K_Scratch left the game
+[09:14:39 INFO]: UUID of player Zortwil is c94597c9-f9a6-3828-80f3-38dbd66e121c
+[09:14:39 INFO]: Zortwil[/127.0.0.1:45706] logged in with entity id 5381 at ([world]-596.6999999880791, 78.0, -303.30000001192093)
+[09:14:40 INFO]: UUID of player TheFlipper1000 is ad078bc9-e948-39cd-97b5-761dae5c4344
+[09:14:40 INFO]: TheFlipper1000[/127.0.0.1:45708] logged in with entity id 5531 at ([world]-227.5, 69.0, -188.5)
+[09:14:45 INFO]: <TheFlipper1000> FUCK ALL YOU BITCHES
+[09:14:49 INFO]: <Zortwil> no u
+[09:14:53 INFO]: TheFlipper1000 lost connection: Disconnected
+[09:14:53 INFO]: TheFlipper1000 left the game
+[09:15:50 INFO]: UUID of player K_Scratch is 1e0eb81f-404b-3118-be3e-1677318cbf7c
+[09:15:50 INFO]: K_Scratch[/127.0.0.1:45712] logged in with entity id 6290 at ([world]-511.43003980530096, 72.0, -47.29455283753436)
+[09:16:00 INFO]: <Schatz> -452 -350
+[09:16:02 INFO]: K_Scratch lost connection: Disconnected
+[09:16:02 INFO]: K_Scratch left the game
+[09:16:19 INFO]: UUID of player K_Scratch is 1e0eb81f-404b-3118-be3e-1677318cbf7c
+[09:16:20 INFO]: K_Scratch[/127.0.0.1:45718] logged in with entity id 6571 at ([world]-511.43003980530096, 72.0, -47.29455283753436)
+[09:16:24 INFO]: UUID of player TheFlipper1000 is ad078bc9-e948-39cd-97b5-761dae5c4344
+[09:16:24 INFO]: TheFlipper1000[/127.0.0.1:45722] logged in with entity id 6781 at ([world]-227.5, 69.0, -188.5)
+[09:16:29 INFO]: TheFlipper1000 lost connection: Disconnected
+[09:16:29 INFO]: TheFlipper1000 left the game
+[09:18:48 INFO]: UUID of player Kkevlar is 273c5da9-5af5-33da-896c-6f3708a12d7b
+[09:18:48 INFO]: Kkevlar[/127.0.0.1:45730] logged in with entity id 7775 at ([world]-229.5, 68.0, -191.5)
+[09:18:49 INFO]: <K_Scratch> -498.283/69/-47.329
+[09:19:38 INFO]: <Zortwil> -360 -360
+[09:20:35 INFO]: Kkevlar lost connection: Disconnected
+[09:20:35 INFO]: Kkevlar left the game
+[09:22:29 INFO]: matt18990 was slain by Zombie
+[09:24:54 INFO]: <Zortwil> -271 -516
+[09:28:39 INFO]: matt18990 lost connection: Disconnected
+[09:28:39 INFO]: matt18990 left the game
+[09:28:43 INFO]: UUID of player matt18990 is db33f881-694f-3465-ac7f-128974eb7f31
+[09:28:43 INFO]: matt18990[/127.0.0.1:45912] logged in with entity id 12631 at ([world]-276.0625383890619, 71.0, -513.8113943762706)
+[09:29:25 INFO]: matt18990 has made the advancement [Sweet Dreams]
+[09:29:28 INFO]: Zortwil has made the advancement [Sweet Dreams]
+[09:29:30 INFO]: Schatz has made the advancement [Sweet Dreams]
+[09:29:30 INFO]: K_Scratch lost connection: Disconnected
+[09:29:30 INFO]: K_Scratch left the game
+[09:29:43 INFO]: UUID of player K_Scratch is 1e0eb81f-404b-3118-be3e-1677318cbf7c
+[09:29:43 INFO]: K_Scratch[/127.0.0.1:45916] logged in with entity id 13033 at ([world]-273.36197152551944, 71.0, -515.9359919317851)
+[09:29:49 INFO]: UUID of player Ninjustinja is 6a6fd91b-fc5f-3a99-b359-b914cfda236c
+[09:29:49 INFO]: Ninjustinja[/127.0.0.1:45920] logged in with entity id 13085 at ([world]-229.5, 68.0, -192.5)
+[09:29:56 INFO]: <Zortwil> HELLO
+[09:29:58 INFO]: <Zortwil> LMFAO
+[09:29:58 INFO]: <Schatz> WHAT
+[09:30:01 INFO]: <matt18990> LMAO
+[09:30:01 INFO]: <Zortwil> NI FUCKING HAO
+[09:30:06 INFO]: <Ninjustinja> Lmao
+[09:30:07 INFO]: <Zortwil> WE ARE -277 -511
+[09:30:08 INFO]: <K_Scratch> sup my nigger
+[09:30:12 INFO]: <Ninjustinja> its been too fucking long
+[09:30:12 INFO]: <Zortwil> okayyy
+[09:30:16 INFO]: <matt18990> -277, -515
+[09:30:16 INFO]: <K_Scratch> woah woah woah
+[09:30:18 INFO]: <matt18990> okok
+[09:30:21 INFO]: <K_Scratch> ive been set up
+[09:30:29 INFO]: <Schatz> get here
+[09:30:46 INFO]: Ninjustinja issued server command: /help
+[09:30:53 INFO]: Ninjustinja issued server command: /help 2
+[09:32:03 INFO]: <Ninjustinja> where tf are yall
+[09:32:07 INFO]: <matt18990> coords in chat
+[09:32:07 INFO]: <Zortwil> -277 -515
+[09:35:02 INFO]: Ninjustinja fell from a high place
+[09:35:05 INFO]: <Zortwil> oh no
+[09:35:09 INFO]: <Ninjustinja> fuck
+[09:35:09 INFO]: <Schatz> JUSTIN
+[09:35:26 INFO]: Ninjustinja issued server command: /coordinateas
+[09:35:28 INFO]: Ninjustinja issued server command: /help
+[09:35:47 INFO]: Ninjustinja issued server command: /aliases
+[09:35:54 INFO]: Ninjustinja issued server command: /help aliases
+[09:36:00 INFO]: Ninjustinja issued server command: /help bukkit
+[09:36:11 INFO]: Ninjustinja issued server command: /help Mine
+[09:36:18 INFO]: Ninjustinja issued server command: /help Minecraft
+[09:36:22 INFO]: Zortwil lost connection: Disconnected
+[09:36:22 INFO]: Zortwil left the game
+[09:36:27 INFO]: Ninjustinja issued server command: /help
+[09:36:37 INFO]: Ninjustinja issued server command: /me
+[09:36:38 INFO]: matt18990 has made the advancement [Getting an Upgrade]
+[09:36:45 INFO]: Ninjustinja issued server command: /help
+[09:36:51 INFO]: Ninjustinja issued server command: /plugins
+[09:36:55 INFO]: Ninjustinja issued server command: /help 2
+[09:37:01 INFO]: UUID of player Zortwil is c94597c9-f9a6-3828-80f3-38dbd66e121c
+[09:37:01 INFO]: Zortwil[/127.0.0.1:46128] logged in with entity id 15946 at ([world]-282.103939972989, 71.0, -515.6648402757311)
+[09:37:10 INFO]: matt18990 has made the advancement [Stone Age]
+[09:38:51 INFO]: <Zortwil> bring oak saplings if you can find
+[09:39:04 INFO]: <Zortwil> or like any of the non rarted jungle trees
+[09:40:11 INFO]: <Zortwil> nvm got it
+[09:40:24 INFO]: <matt18990> wya
+[09:40:30 INFO]: <K_Scratch> justin wya
+[09:41:32 INFO]: <Schatz> justin
+[09:41:35 INFO]: <Schatz> get here
+[09:41:40 INFO]: <Schatz> so we can set ur spawn
+[09:42:33 INFO]: <Ninjustinja> i completely forgot how to find coordinates lol
+[09:42:35 INFO]: <Zortwil> f3
+[09:42:37 INFO]: <Schatz> f3
+[09:42:42 INFO]: <Schatz> fn + f3
+[09:42:45 INFO]: <Zortwil> -280 -515
+[09:43:51 INFO]: Zortwil has made the advancement [Monster Hunter]
+[09:43:54 INFO]: <Zortwil> YEET
+[09:46:07 INFO]: K_Scratch has made the advancement [Monster Hunter]
+[09:49:06 INFO]: Zortwil was slain by Zombie
+[09:49:18 INFO]: Schatz has made the advancement [Monster Hunter]
+[09:51:14 INFO]: <Ninjustinja> got em
+[09:51:52 INFO]: <Zortwil> chill till dark n sleep
+[09:52:26 INFO]: Ninjustinja has made the advancement [Stone Age]
+[09:55:40 INFO]: Ninjustinja has made the advancement [Monster Hunter]
+[09:56:24 INFO]: UUID of player xshadows73 is 9fa8340e-046e-3ca1-aae6-dbef82fb83d5
+[09:56:24 INFO]: xshadows73[/127.0.0.1:46404] logged in with entity id 20981 at ([world]-227.5, 69.0, -187.5)
+[09:56:27 INFO]: <Zortwil> who dis
+[09:56:33 INFO]: <xshadows73> i literally got out of ben for this shit
+[09:56:39 INFO]: <K_Scratch> that names edgy af
+[09:56:40 INFO]: Ninjustinja was blown up by Creeper
+[09:56:44 INFO]: <Zortwil> JUSTIN
+[09:56:47 INFO]: <Zortwil> MY DUDE
+[09:56:48 INFO]: <K_Scratch> nigga
+[09:56:48 INFO]: <Schatz> OMG
+[09:56:55 INFO]: <Zortwil> we at -285 -510
+[09:56:55 INFO]: <Ninjustinja> LMAO
+[09:57:17 INFO]: <Zortwil> who this xshadows boy
+[09:57:22 INFO]: <Ninjustinja> boi
+[09:57:24 INFO]: Ninjustinja was slain by xshadows73
+[09:57:29 INFO]: <Schatz> o
+[09:57:31 INFO]: <Ninjustinja> fu
+[09:57:33 INFO]: <K_Scratch> NIGGA WHAT
+[09:57:33 INFO]: <Schatz> o-o
+[09:57:37 INFO]: <Schatz> wtf why tho
+[09:58:08 INFO]: Zortwil lost connection: Disconnected
+[09:58:08 INFO]: Zortwil left the game
+[09:58:47 INFO]: UUID of player Zortwil is c94597c9-f9a6-3828-80f3-38dbd66e121c
+[09:58:47 INFO]: Zortwil[/127.0.0.1:46498] logged in with entity id 22345 at ([world]-277.93652285525843, 71.5625, -513.2998032622786)
+[10:00:07 INFO]: <Zortwil> do yall need a fuckin escort
+[10:01:13 INFO]: <Schatz> how close r u jrod
+[10:01:20 INFO]: <Zortwil> and edgyboi
+[10:01:22 INFO]: <Ninjustinja> pretty close
+[10:01:28 INFO]: <xshadows73> i have no clue wher ei am
+[10:01:29 INFO]: <Schatz> wtf is u
+[10:01:33 INFO]: <Schatz> shadowboi
+[10:01:38 INFO]: <Zortwil> f3 for coords
+[10:01:44 INFO]: <Schatz> uh fn + f3
+[10:01:44 INFO]: <Zortwil> we at -275 -515
+[10:02:01 INFO]: <xshadows73> -255, 70
+[10:03:58 INFO]: Zortwil has made the advancement [Getting an Upgrade]
+[10:04:33 INFO]: xshadows73 has made the advancement [Stone Age]
+[10:05:10 INFO]: <K_Scratch> bedtime everyone
+[10:05:11 INFO]: <Schatz> sleep
+[10:05:15 INFO]: <K_Scratch> come to bed
+[10:05:18 INFO]: matt18990 has made the advancement [Acquire Hardware]
+[10:05:21 INFO]: K_Scratch has made the advancement [Sweet Dreams]
+[10:05:24 INFO]: <Zortwil> im in a hole
+[10:05:26 INFO]: <matt18990> GET IN FUCKING BED
+[10:05:32 INFO]: <Schatz> sleeeeep now
+[10:05:33 INFO]: <Zortwil> one moment
+[10:05:38 INFO]: <Schatz> otherwise we can't set spawn
+[10:05:43 INFO]: <Schatz> derick u have a bed
+[10:05:59 INFO]: Ninjustinja has made the advancement [Sweet Dreams]
+[10:06:13 INFO]: <Ninjustinja> sleep ma dudes
+[10:06:17 INFO]: xshadows73 lost connection: Disconnected
+[10:06:17 INFO]: xshadows73 left the game
+[10:06:24 INFO]: <Schatz> hurry so we can sleep
+[10:06:25 INFO]: Zortwil lost connection: Disconnected
+[10:06:25 INFO]: Zortwil left the game
+[10:06:35 INFO]: UUID of player xshadows73 is 9fa8340e-046e-3ca1-aae6-dbef82fb83d5
+[10:06:35 INFO]: xshadows73[/127.0.0.1:46596] logged in with entity id 25564 at ([world]-358.33864214905924, 70.0, 205.31436153604776)
+[10:06:42 INFO]: K_Scratch lost connection: Disconnected
+[10:06:42 INFO]: K_Scratch left the game
+[10:06:44 INFO]: UUID of player Zortwil is c94597c9-f9a6-3828-80f3-38dbd66e121c
+[10:06:44 INFO]: Zortwil[/127.0.0.1:46600] logged in with entity id 25776 at ([world]-277.300349529236, 71.0, -396.874035890861)
+[10:06:51 INFO]: UUID of player K_Scratch is 1e0eb81f-404b-3118-be3e-1677318cbf7c
+[10:06:51 INFO]: K_Scratch[/127.0.0.1:46602] logged in with entity id 25849 at ([world]-280.7386725585669, 71.0, -514.8503277951344)
+[10:06:56 INFO]: K_Scratch lost connection: Disconnected
+[10:06:56 INFO]: K_Scratch left the game
+[10:07:03 INFO]: matt18990 has made the advancement [Isn't It Iron Pick]
+[10:07:03 INFO]: matt18990 has made the advancement [Suit Up]
+[10:13:46 INFO]: matt18990 has made the advancement [Monster Hunter]
+[10:14:17 INFO]: xshadows73 has made the advancement [Getting an Upgrade]
+[10:14:51 INFO]: Zortwil has made the advancement [Acquire Hardware]
+[10:15:00 INFO]: Zortwil has made the advancement [Isn't It Iron Pick]
+[10:17:40 INFO]: Ninjustinja has made the advancement [A Seedy Place]
+[10:17:50 INFO]: <Zortwil> i have so much fucking homework
+[10:18:28 INFO]: Schatz has made the advancement [Hot Stuff]
+[10:19:16 INFO]: Ninjustinja has made the advancement [Getting an Upgrade]
+[10:20:29 INFO]: Ninjustinja has made the advancement [Acquire Hardware]
+[10:20:47 INFO]: <Zortwil> justin did u sleep yet
+[10:21:00 INFO]: <Ninjustinja> yes i have
+[10:23:09 INFO]: matt18990 tried to swim in lava
+[10:23:13 INFO]: <Ninjustinja> oof
+[10:24:58 INFO]: <Schatz> im sorry matt
+[10:25:02 INFO]: <Schatz> ily <3
+[10:25:15 INFO]: <matt18990> she killed me
+[10:25:18 INFO]: <matt18990> we're breakin gfup
+[10:25:28 INFO]: <Schatz> unintentional consequence of him giving me a bucket of lava
+[10:26:57 INFO]: Ninjustinja has made the advancement [Isn't It Iron Pick]
+[10:29:06 INFO]: <matt18990> -221 -517
+[10:32:52 INFO]: Zortwil has made the advancement [Diamonds!]
+[10:32:55 INFO]: <Zortwil> es fucking ketit
+[10:34:03 INFO]: Schatz has made the advancement [The Parrots and the Bats]
+[10:34:25 INFO]: UUID of player WOWKHRiku is 84994702-d3b8-3275-b142-a8b4f8e85b96
+[10:34:26 INFO]: WOWKHRiku[/127.0.0.1:47080] logged in with entity id 38421 at ([world]-233.5, 69.0, -201.5)
+[10:34:36 INFO]: <Zortwil> who dis
+[10:34:37 INFO]: <WOWKHRiku> o lord this name is so old
+[10:34:39 INFO]: <WOWKHRiku> tiger
+[10:34:42 INFO]: <Zortwil> lmfao
+[10:34:43 INFO]: <WOWKHRiku> wait will
+[10:34:45 INFO]: <Zortwil> weab fucking ass
+[10:34:50 INFO]: <WOWKHRiku> are u fkn playing rn too
+[10:34:52 INFO]: <Zortwil> will aint in this bitch
+[10:34:53 INFO]: <WOWKHRiku> im ded
+[10:34:53 INFO]: <Zortwil> no
+[10:34:56 INFO]: <WOWKHRiku> o
+[10:34:58 INFO]: <WOWKHRiku> oops
+[10:35:03 INFO]: <Zortwil> we at -275 -515
+[10:35:08 INFO]: <WOWKHRiku> bet
+[10:35:16 INFO]: <WOWKHRiku> wats the key for coordinates
+[10:35:24 INFO]: <matt18990> f3
+[10:35:24 INFO]: <Schatz> fn f3
+[10:35:50 INFO]: <matt18990> derks mentally disabled
+[10:35:57 INFO]: <Zortwil> my hoe
+[10:35:58 INFO]: <Zortwil> is diamong
+[10:36:01 INFO]: <Zortwil> fucking fight me
+[10:36:52 INFO]: Schatz has made the advancement [Isn't It Iron Pick]
+[10:37:57 INFO]: UUID of player K_Scratch is 1e0eb81f-404b-3118-be3e-1677318cbf7c
+[10:37:57 INFO]: K_Scratch[/127.0.0.1:47172] logged in with entity id 40725 at ([world]-280.7386725585669, 71.0, -514.8503277951344)
+[10:38:01 INFO]: <Zortwil> HELLO
+[10:38:06 INFO]: <K_Scratch> wtf is up ma niggas
+[10:38:51 INFO]: WOWKHRiku lost connection: Disconnected
+[10:38:51 INFO]: WOWKHRiku left the game
+[10:39:18 INFO]: UUID of player WOWKHRiku is 84994702-d3b8-3275-b142-a8b4f8e85b96
+[10:39:18 INFO]: WOWKHRiku[/127.0.0.1:47180] logged in with entity id 41168 at ([world]-233.5, 69.0, -201.5)
+[10:39:40 INFO]: WOWKHRiku lost connection: Disconnected
+[10:39:40 INFO]: WOWKHRiku left the game
+[10:39:43 INFO]: UUID of player WOWKHRiku is 84994702-d3b8-3275-b142-a8b4f8e85b96
+[10:39:43 INFO]: WOWKHRiku[/127.0.0.1:47184] logged in with entity id 41508 at ([world]-233.5, 69.0, -201.5)
+[10:39:57 INFO]: WOWKHRiku lost connection: Disconnected
+[10:39:57 INFO]: WOWKHRiku left the game
+[10:40:13 INFO]: <xshadows73> can this guy make up his mind wtf
+[10:40:16 INFO]: Schatz has made the advancement [Suit Up]
+[10:40:23 INFO]: Zortwil has made the advancement [Suit Up]
+[10:40:40 INFO]: UUID of player LionMoon_ is 031ad48a-fe16-355c-93ab-d7f784ab36fd
+[10:40:41 INFO]: LionMoon_[/127.0.0.1:47294] logged in with entity id 41835 at ([world]-225.5, 68.0, -187.5)
+[10:40:45 INFO]: <Zortwil> SUGOI
+[10:40:48 INFO]: <matt18990> LIONMOON
+[10:40:48 INFO]: <LionMoon_> ni hao niggas
+[10:40:55 INFO]: <xshadows73> big gay
+[10:41:09 INFO]: <LionMoon_> LionMoon and Lion_Moon were taken :(
+[10:41:16 INFO]: <Zortwil> HUH
+[10:41:18 INFO]: <Zortwil> DID YOU REBUY
+[10:41:25 INFO]: <LionMoon_> no
+[10:41:28 INFO]: <LionMoon_> i did name change
+[10:41:28 INFO]: <matt18990> KEVINS GNA BE SO MAD
+[10:41:30 INFO]: <LionMoon_> its freee
+[10:41:31 INFO]: <matt18990> fuck
+[10:41:31 INFO]: <Zortwil> ohh
+[10:41:32 INFO]: <Zortwil> lit
+[10:41:41 INFO]: <LionMoon_> i got my security questions first try
+[10:41:45 INFO]: <Zortwil> sugoi
+[10:41:49 INFO]: <matt18990> best friend jeff dunham
+[10:41:51 INFO]: <LionMoon_> 5 years and strong bois
+[10:41:53 INFO]: <Zortwil> -275 -515
+[10:41:56 INFO]: <LionMoon_> bet
+[10:42:53 INFO]: <LionMoon_> where do i turn off tutorial
+[10:43:00 INFO]: <matt18990> git gud
+[10:44:33 INFO]: LionMoon_ issued server command: /weather
+[10:47:30 INFO]: <LionMoon_> -515 Y or Z
+[10:47:51 INFO]: <matt18990> z
+[10:47:52 INFO]: <K_Scratch> Y
+[10:47:55 INFO]: <Zortwil> dumbfuck
+[10:48:02 INFO]: <LionMoon_> h u h
+[10:48:32 INFO]: <K_Scratch> oh nvmd im dumb l m a o
+[10:48:46 INFO]: <K_Scratch> just dig straight down
+[10:49:53 INFO]: Schatz has made the advancement [A Seedy Place]
+[10:50:50 INFO]: <LionMoon_> t
+[10:50:53 INFO]: <matt18990> y
+[10:50:58 INFO]: <LionMoon_> sm
+[10:50:59 INFO]: <Zortwil> join the discord yall
+[10:51:14 INFO]: Zortwil has made the advancement [Ice Bucket Challenge]
+[10:52:22 INFO]: <Zortwil> https://discord.gg/aqMZe9
+[10:54:03 INFO]: <matt18990> -140 -546
+[10:55:55 INFO]: <xshadows73> wheat
+[10:55:57 INFO]: K_Scratch has made the advancement [Getting an Upgrade]
+[10:55:58 INFO]: <xshadows73> carrots
+[10:56:12 INFO]: <xshadows73> surprise
+[10:56:34 INFO]: <xshadows73> i dont think ryo would kill man in cold blood
+[10:56:40 INFO]: <xshadows73> sorry justin
+[10:56:43 INFO]: <Zortwil> ;(
+[10:58:06 INFO]: matt18990 has made the advancement [Diamonds!]
+[10:58:39 INFO]: <xshadows73> i have gone to live in the mountains
+[10:59:19 INFO]: <matt18990> -111, -528
+[11:01:45 INFO]: <xshadows73> where is kevin
+[11:01:47 INFO]: LionMoon_ lost connection: Disconnected
+[11:01:47 INFO]: LionMoon_ left the game
+[11:02:52 INFO]: <Schatz> justin i want skylights/windows
+[11:03:01 INFO]: <Ninjustinja> -_-
+[11:03:37 INFO]: <Ninjustinja> we'll make the skhylights later
+[11:03:43 INFO]: <Ninjustinja> i hate the rain
+[11:03:46 INFO]: <Zortwil> can i have my diamond hoe back LMAO
+[11:04:04 INFO]: <Ninjustinja> H O E
+[11:05:03 INFO]: matt18990 has made the advancement [We Need to Go Deeper]
+[11:05:27 INFO]: Schatz lost connection: Disconnected
+[11:05:27 INFO]: Schatz left the game
+[11:06:42 INFO]: matt18990 has made the advancement [A Seedy Place]
+[11:08:06 INFO]: Ninjustinja has made the advancement [Suit Up]
+[11:08:55 INFO]: UUID of player LionMoon_ is 031ad48a-fe16-355c-93ab-d7f784ab36fd
+[11:08:55 INFO]: LionMoon_[/127.0.0.1:47780] logged in with entity id 55988 at ([world]-114.30000001192097, 76.0, -341.30000001192093)
+[11:09:26 INFO]: <LionMoon_> coordinates pls
+[11:09:31 INFO]: <Zortwil> -275 -515
+[11:11:36 INFO]: Ninjustinja issued server command: /weather clear
+[11:12:08 INFO]: <LionMoon_> y do we have cows and chickens
+[11:12:13 INFO]: <matt18990> FARM
+[11:12:14 INFO]: <Ninjustinja> food
+[11:12:18 INFO]: <LionMoon_> thats a thing?
+[11:12:33 INFO]: LionMoon_ has made the advancement [Acquire Hardware]
+[11:12:58 INFO]: LionMoon_ has made the advancement [Suit Up]
+[11:13:29 INFO]: LionMoon_ has made the advancement [Getting an Upgrade]
+[11:14:15 INFO]: <Ninjustinja> oofed
+[11:14:54 INFO]: <LionMoon_> does /home work
+[11:14:58 INFO]: <Zortwil> no
+[11:15:01 INFO]: <LionMoon_> o
+[11:15:12 INFO]: <LionMoon_> so spawn is just if i die i respawn at bed
+[11:15:14 INFO]: <Zortwil> yup
+[11:15:17 INFO]: <LionMoon_> kk
+[11:15:18 INFO]: <Zortwil> you gotta legit sleep tho
+[11:15:20 INFO]: <matt18990> cave spide spawner -109 -472 14
+[11:15:24 INFO]: <LionMoon_> yah
+[11:15:40 INFO]: K_Scratch has made the advancement [Acquire Hardware]
+[11:15:48 INFO]: K_Scratch has made the advancement [Suit Up]
+[11:16:50 INFO]: <K_Scratch> im making glass rn
+[11:16:58 INFO]: <matt18990> thanks will, very cool
+[11:17:01 INFO]: <K_Scratch> if we want windows and shit
+[11:17:51 INFO]: LionMoon_ has made the advancement [Stone Age]
+[11:18:57 INFO]: LionMoon_ has made the advancement [Sweet Dreams]
+[11:19:17 INFO]: <LionMoon_> once i go in bed and out am i ok
+[11:19:22 INFO]: <Zortwil> nop
+[11:19:25 INFO]: <Zortwil> everyone has to sleep
+[11:19:30 INFO]: <LionMoon_> o
+[11:19:30 INFO]: <Zortwil> did u make it
+[11:19:33 INFO]: <LionMoon_> ye
+[11:19:35 INFO]: <Zortwil> is it night
+[11:19:37 INFO]: <LionMoon_> ye
+[11:19:41 INFO]: <Zortwil> everyone either sleep or logout for a sec
+[11:19:44 INFO]: Zortwil lost connection: Disconnected
+[11:19:44 INFO]: Zortwil left the game
+[11:19:45 INFO]: matt18990 lost connection: Disconnected
+[11:19:45 INFO]: matt18990 left the game
+[11:20:01 INFO]: xshadows73 lost connection: Disconnected
+[11:20:01 INFO]: xshadows73 left the game
+[11:20:04 INFO]: <LionMoon_> everyone log out
+[11:20:06 INFO]: <LionMoon_> let me sleep
+[11:20:22 INFO]: <LionMoon_> Ninjustinja
+[11:20:22 INFO]: K_Scratch lost connection: Disconnected
+[11:20:22 INFO]: K_Scratch left the game
+[11:20:27 INFO]: <LionMoon_> leave real quick
+[11:20:33 INFO]: <LionMoon_> Ninjustinja
+[11:20:43 INFO]: <LionMoon_> leave and then come back
+[11:20:46 INFO]: <LionMoon_> bc i need to sleep
+[11:20:48 INFO]: <LionMoon_> or sleep
+[11:20:51 INFO]: <LionMoon_> in the bed
+[11:20:53 INFO]: <LionMoon_> with me
+[11:20:56 INFO]: <LionMoon_> until morning
+[11:20:56 INFO]: Ninjustinja lost connection: Disconnected
+[11:20:56 INFO]: Ninjustinja left the game
+[11:21:03 INFO]: UUID of player matt18990 is db33f881-694f-3465-ac7f-128974eb7f31
+[11:21:03 INFO]: matt18990[/127.0.0.1:47974] logged in with entity id 75443 at ([world]-84.32433958239153, 13.0, -412.32920388904415)
+[11:21:03 INFO]: UUID of player Zortwil is c94597c9-f9a6-3828-80f3-38dbd66e121c
+[11:21:03 INFO]: Zortwil[/127.0.0.1:47976] logged in with entity id 75533 at ([world]-86.3451165320532, 13.0, -414.30000001192093)
+[11:21:05 INFO]: UUID of player Ninjustinja is 6a6fd91b-fc5f-3a99-b359-b914cfda236c
+[11:21:05 INFO]: Ninjustinja[/127.0.0.1:47978] logged in with entity id 75663 at ([world]-277.3339031500247, 71.5625, -513.3103118332679)
+[11:21:06 INFO]: UUID of player K_Scratch is 1e0eb81f-404b-3118-be3e-1677318cbf7c
+[11:21:06 INFO]: K_Scratch[/127.0.0.1:47980] logged in with entity id 75739 at ([world]-282.9508006383945, 71.0, -514.270511392884)
+[11:21:08 INFO]: UUID of player xshadows73 is 9fa8340e-046e-3ca1-aae6-dbef82fb83d5
+[11:21:09 INFO]: xshadows73[/127.0.0.1:47982] logged in with entity id 75831 at ([world]-595.8941755131084, 82.0, -80.67203006771835)
+[11:21:53 INFO]: <Ninjustinja> im going in bois
+[11:22:00 INFO]: Ninjustinja has made the advancement [We Need to Go Deeper]
+[11:27:52 INFO]: <xshadows73> i sleep now
+[11:27:54 INFO]: <xshadows73> goodnight
+[11:27:57 INFO]: xshadows73 lost connection: Disconnected
+[11:27:57 INFO]: xshadows73 left the game
+[11:33:54 INFO]: <K_Scratch> alright im going to bed gn
+[11:34:00 INFO]: K_Scratch lost connection: Disconnected
+[11:34:00 INFO]: K_Scratch left the game
+[11:36:47 INFO]: <LionMoon_> im mining
+[11:37:35 INFO]: Zortwil lost connection: Disconnected
+[11:37:35 INFO]: Zortwil left the game
+[11:37:59 INFO]: matt18990 lost connection: Disconnected
+[11:37:59 INFO]: matt18990 left the game
+[11:41:27 INFO]: <Ninjustinja> fuck
+[11:41:31 INFO]: <LionMoon_> ?
+[11:41:35 INFO]: <Ninjustinja> im pissed
+[11:41:55 INFO]: <Ninjustinja> I couldnt find a nether fortress this whole entire time
+[11:42:06 INFO]: <LionMoon_> oof
+[11:43:33 INFO]: LionMoon_ has made the advancement [Isn't It Iron Pick]
+[11:52:53 INFO]: <LionMoon_> aight im logging off pce
+[11:52:54 INFO]: LionMoon_ lost connection: Disconnected
+[11:52:54 INFO]: LionMoon_ left the game
+[11:53:04 INFO]: <Ninjustinja> same honestly lol
+[11:53:27 INFO]: Ninjustinja has made the advancement [Diamonds!]
+[12:14:02 INFO]: Ninjustinja has made the advancement [Take Aim]
+[12:30:50 INFO]: UUID of player Zortwil is c94597c9-f9a6-3828-80f3-38dbd66e121c
+[12:30:51 INFO]: Zortwil[/127.0.0.1:49188] logged in with entity id 104190 at ([world]-281.936001716488, 71.0, -515.0685164328886)
+[12:30:57 INFO]: <Zortwil> my dude
+[12:31:03 INFO]: <Zortwil> its 4:30 in the morning
+[12:31:07 INFO]: <Ninjustinja> HENLO
+[12:31:09 INFO]: <Zortwil> wyd
+[12:31:16 INFO]: <Ninjustinja> in the nether exploring
+[12:31:24 INFO]: Zortwil has made the advancement [We Need to Go Deeper]
+[12:31:29 INFO]: <Zortwil> o my
+[12:31:40 INFO]: <Ninjustinja> I havent played since freshman of highschool
+[12:31:46 INFO]: <Zortwil> lmao what a good game tbh
+[12:31:47 INFO]: <Ninjustinja> so im pretty into it right now lol
+[12:31:53 INFO]: <Zortwil> aight back to doing a week of hw
+[12:31:55 INFO]: <Zortwil> have fun
+[12:32:00 INFO]: <Ninjustinja> lmao kk
+[12:32:01 INFO]: Zortwil lost connection: Disconnected
+[12:32:01 INFO]: Zortwil left the game
+[12:36:27 INFO]: Ninjustinja has made the advancement [Hot Stuff]
+[12:40:01 INFO]: Ninjustinja has made the advancement [Ice Bucket Challenge]
+[13:22:05 INFO]: Ninjustinja has made the advancement [Enchanter]
+[13:27:57 INFO]: Ninjustinja lost connection: Disconnected
+[13:27:57 INFO]: Ninjustinja left the game
+[13:30:24 INFO]: UUID of player Ninjustinja is 6a6fd91b-fc5f-3a99-b359-b914cfda236c
+[13:30:25 INFO]: Ninjustinja[/127.0.0.1:50224] logged in with entity id 117672 at ([world]-281.68992209678817, 71.0, -513.6190824099217)
+[13:34:09 INFO]: Ninjustinja lost connection: Disconnected
+[13:34:09 INFO]: Ninjustinja left the game
+[19:41:50 INFO]: UUID of player xshadows73 is 9fa8340e-046e-3ca1-aae6-dbef82fb83d5
+[19:41:51 INFO]: xshadows73[/127.0.0.1:56608] logged in with entity id 119610 at ([world]-577.7490594934638, 77.0, -89.13645603727741)
+[19:52:03 INFO]: xshadows73 lost connection: Disconnected
+[19:52:03 INFO]: xshadows73 left the game
+[23:10:34 INFO]: UUID of player Ninjustinja is 6a6fd91b-fc5f-3a99-b359-b914cfda236c
+[23:10:34 INFO]: Ninjustinja[/127.0.0.1:60144] logged in with entity id 120843 at ([world]-281.28694124681175, 71.0, -513.4095270974954)
+[00:01:49 WARN]: Skipping Entity with id minecraft:
+[00:04:21 INFO]: Ninjustinja lost connection: Disconnected
+[00:04:21 INFO]: Ninjustinja left the game
+[01:06:04 INFO]: UUID of player Zortwil is c94597c9-f9a6-3828-80f3-38dbd66e121c
+[01:06:05 INFO]: Zortwil[/127.0.0.1:34052] logged in with entity id 144190 at ([world_nether]-28.33451858416714, 80.0, -52.67409598502973)
+[01:09:39 INFO]: Zortwil has made the advancement [A Seedy Place]
+[01:21:43 INFO]: UUID of player xshadows73 is 9fa8340e-046e-3ca1-aae6-dbef82fb83d5
+[01:21:43 INFO]: xshadows73[/127.0.0.1:34448] logged in with entity id 148705 at ([world]-588.7903857897111, 88.0, -90.55929386425895)
+[01:21:47 INFO]: <Zortwil> ni hao
+[01:22:14 INFO]: <xshadows73> derricicickacac
+[01:46:48 INFO]: xshadows73 has made the advancement [Monster Hunter]
+[01:58:53 INFO]: UUID of player Schatz is cb2e9018-573e-308d-a7e4-9c89f5ac4e8f
+[01:58:53 INFO]: Schatz[/127.0.0.1:35404] logged in with entity id 161045 at ([world]-278.5, 71.0, -517.5)
+[02:06:29 INFO]: Schatz has made the advancement [Acquire Hardware]
+[02:08:05 INFO]: Zortwil has made the advancement [The Parrots and the Bats]
+[02:09:24 INFO]: UUID of player matt18990 is db33f881-694f-3465-ac7f-128974eb7f31
+[02:09:25 INFO]: matt18990[/127.0.0.1:35658] logged in with entity id 164481 at ([world]-96.69999998807907, 64.0, -468.30000001192093)
+[02:09:28 INFO]: <Zortwil> sugoi
+[02:11:01 INFO]: <Schatz> where r u matt
+[02:11:07 INFO]: UUID of player Tatertot is 94acc3c7-f010-3e6c-a14c-8b6eb1e54551
+[02:11:07 INFO]: Tatertot[/127.0.0.1:35662] logged in with entity id 165670 at ([world]-233.5, 66.0, -182.5)
+[02:11:08 INFO]: <matt18990> idk lmao
+[02:11:10 INFO]: <matt18990> LOL
+[02:11:15 INFO]: <Schatz> send coords
+[02:11:16 INFO]: <Zortwil> who dis
+[02:11:31 INFO]: <Schatz> -275 -515 is base
+[02:11:36 INFO]: <Zortwil> dont die
+[02:11:38 INFO]: <matt18990> ok
+[02:11:42 INFO]: <matt18990> is it day
+[02:11:45 INFO]: <Zortwil> nope
+[02:11:47 INFO]: <Schatz> no
+[02:11:50 INFO]: <Schatz> send ur coords
+[02:11:51 INFO]: <matt18990> ok ima stay in hidey holke
+[02:11:53 INFO]: <Schatz> ill come
+[02:12:00 INFO]: <matt18990> -100 -468
+[02:12:01 INFO]: <Schatz> ILL SAVE U lol
+[02:12:04 INFO]: <matt18990> thanks
+[02:12:11 INFO]: <matt18990> nah im chillin in my hole
+[02:12:12 INFO]: Tatertot issued server command: /msg matt18990 what do
+[02:12:44 INFO]: matt18990 issued server command: /w Tatertot litty
+[02:13:06 INFO]: <Zortwil> whos tatertot
+[02:13:11 INFO]: <matt18990> tasty
+[02:13:15 INFO]: <Tatertot> uwu
+[02:13:26 INFO]: <Zortwil> owo
+[02:13:34 INFO]: <matt18990> whats this
+[02:14:05 INFO]: <matt18990> tell me whgen its daytime
+[02:14:21 INFO]: <matt18990> pls
+[02:14:31 INFO]: <Tatertot> me2
+[02:15:07 INFO]: <Schatz> matt im here
+[02:15:09 INFO]: <Schatz> ish
+[02:16:39 INFO]: <xshadows73> wait there are so many people now
+[02:17:28 INFO]: <matt18990> fuck
+[02:17:32 INFO]: <matt18990> how fucking long is night
+[02:19:12 INFO]: Schatz lost connection: Disconnected
+[02:19:12 INFO]: Schatz left the game
+[02:19:56 INFO]: <matt18990> -275 -515 is base?
+[02:19:59 INFO]: <Zortwil> ye
+[02:20:56 INFO]: <Zortwil> its day
+[02:21:01 INFO]: UUID of player Schatz is cb2e9018-573e-308d-a7e4-9c89f5ac4e8f
+[02:21:01 INFO]: Schatz[/127.0.0.1:35912] logged in with entity id 171039 at ([world]-149.53724134928865, 67.0, -459.08532430243275)
+[02:21:14 INFO]: <Schatz> its day matt
+[02:21:18 INFO]: <matt18990> WE MADE IT
+[02:21:36 INFO]: <Zortwil> what level are you
+[02:21:37 INFO]: <matt18990> what the fuck is this entrance
+[02:21:42 INFO]: <Zortwil> idk justin did it
+[02:21:43 INFO]: <matt18990> 19
+[02:21:56 INFO]: <matt18990> who the fuck is smelting fuucking stone
+[02:21:58 INFO]: <matt18990> xp?
+[02:21:58 INFO]: <Zortwil> me
+[02:22:01 INFO]: <Zortwil> im digging a hole
+[02:22:02 INFO]: <Zortwil> lmao
+[02:22:27 INFO]: <Zortwil> enchant shit before u die
+[02:23:53 INFO]: UUID of player YA_WEY_BOYS is 62021fc9-acd3-32d3-a563-af4e0b4a32bf
+[02:23:53 INFO]: YA_WEY_BOYS[/127.0.0.1:35916] logged in with entity id 172431 at ([world]-231.5, 67.0, -182.5)
+[02:23:58 INFO]: <YA_WEY_BOYS> sup fkrs
+[02:24:01 INFO]: <matt18990> lmfao
+[02:24:05 INFO]: <Schatz> apo?
+[02:24:12 INFO]: <matt18990> whats apu
+[02:24:23 INFO]: <YA_WEY_BOYS> no im john
+[02:24:31 INFO]: <Tatertot> hi john
+[02:24:45 INFO]: <YA_WEY_BOYS> u met me when u were hella fkd up
+[02:24:51 INFO]: <Schatz> me?
+[02:24:54 INFO]: <Tatertot> lmaoo
+[02:25:01 INFO]: <YA_WEY_BOYS> yea
+[02:25:01 INFO]: <Schatz> y u gotta call me out
+[02:25:03 INFO]: <matt18990> LOL
+[02:25:07 INFO]: <YA_WEY_BOYS> sry
+[02:25:11 INFO]: <Schatz> i don't remember this
+[02:25:19 INFO]: <Schatz> unconfirmed
+[02:25:22 INFO]: <Schatz> did not happen
+[02:25:25 INFO]: <YA_WEY_BOYS> ur fault
+[02:25:44 INFO]: matt18990 has made the advancement [Cover Me With Diamonds]
+[02:25:48 INFO]: <Zortwil> sugoi
+[02:25:53 INFO]: <matt18990> nut
+[02:26:01 INFO]: <matt18990> i shouldve made 4.5 hoes
+[02:26:11 INFO]: <Zortwil> I GOT HOESSSSS
+[02:28:40 INFO]: <YA_WEY_BOYS> where u guys at
+[02:29:38 INFO]: Tatertot has made the advancement [Suit Up]
+[02:30:29 INFO]: <Schatz> makign a moat
+[02:30:53 INFO]: Tatertot has made the advancement [Sweet Dreams]
+[02:31:25 INFO]: Schatz lost connection: Disconnected
+[02:31:25 INFO]: Schatz left the game
+[02:31:35 INFO]: <matt18990> minecraft and miracle berry and board game
+[02:31:49 INFO]: <Tatertot> im down
+[02:31:52 INFO]: <matt18990> -275 -515
+[02:32:23 INFO]: Tatertot has made the advancement [Acquire Hardware]
+[02:33:58 INFO]: YA_WEY_BOYS issued server command: /tp
+[02:34:04 INFO]: matt18990 issued server command: /
+[02:34:06 INFO]: matt18990 issued server command: /?
+[02:34:12 INFO]: matt18990 issued server command: /help 2
+[02:34:13 INFO]: Tatertot issued server command: /help
+[02:34:16 INFO]: Tatertot issued server command: /tp
+[02:34:34 INFO]: YA_WEY_BOYS lost connection: Disconnected
+[02:34:34 INFO]: YA_WEY_BOYS left the game
+[02:36:47 INFO]: UUID of player Ninjustinja is 6a6fd91b-fc5f-3a99-b359-b914cfda236c
+[02:36:48 INFO]: Ninjustinja[/127.0.0.1:36312] logged in with entity id 176070 at ([world]-48.1086954934458, 64.0, -1633.0318023416241)
+[02:36:54 INFO]: <Ninjustinja> henro?
+[02:37:04 INFO]: <Zortwil> aye
+[02:39:17 INFO]: <matt18990> goodbye friends
+[02:39:22 INFO]: <Zortwil> ;(
+[02:39:28 INFO]: <Ninjustinja> bye bye :(
+[02:39:40 INFO]: matt18990 lost connection: Disconnected
+[02:39:40 INFO]: matt18990 left the game
+[02:39:51 INFO]: Tatertot lost connection: Disconnected
+[02:39:51 INFO]: Tatertot left the game
+[02:41:23 INFO]: Zortwil lost connection: Disconnected
+[02:41:23 INFO]: Zortwil left the game
+[02:48:07 INFO]: Ninjustinja has made the advancement [Best Friends Forever]
+[03:00:16 INFO]: Ninjustinja has made the advancement [Not Today, Thank You]
+[03:10:45 INFO]: <Ninjustinja> wait who are you xshadows?
+[03:12:33 INFO]: <xshadows73> stephen
+[03:12:46 INFO]: <Ninjustinja> oh lol
+[03:13:56 INFO]: <xshadows73> yeah sorry for the kill yesterday
+[03:14:05 INFO]: <Ninjustinja> lmao you good
+[03:14:06 INFO]: <xshadows73> i assumed since you just died you didnt have anything to lose
+[04:23:01 INFO]: UUID of player Zortwil is c94597c9-f9a6-3828-80f3-38dbd66e121c
+[04:23:01 INFO]: Zortwil[/127.0.0.1:38746] logged in with entity id 203491 at ([world]-212.08947057576327, 67.0, -523.0844952029945)
+[04:23:16 INFO]: <Ninjustinja> herro
+[04:23:25 INFO]: <Zortwil> hello
+[04:26:10 INFO]: Zortwil lost connection: Disconnected
+[04:26:10 INFO]: Zortwil left the game
+[04:26:40 INFO]: <Ninjustinja> where are you stephen lol
+[04:40:36 INFO]: Ninjustinja has made the advancement [The Parrots and the Bats]
+[05:28:34 INFO]: UUID of player Schatz is cb2e9018-573e-308d-a7e4-9c89f5ac4e8f
+[05:28:34 INFO]: Schatz[/127.0.0.1:40382] logged in with entity id 217799 at ([world]-282.5036993380674, 71.0, -513.6021728998185)
+[05:28:45 INFO]: <Schatz> hi
+[05:28:52 INFO]: <Ninjustinja> herro
+[05:37:18 INFO]: Schatz lost connection: Disconnected
+[05:37:18 INFO]: Schatz left the game
+[05:39:16 INFO]: UUID of player Schatz is cb2e9018-573e-308d-a7e4-9c89f5ac4e8f
+[05:39:16 INFO]: Schatz[/127.0.0.1:40638] logged in with entity id 219892 at ([world]-274.6078132716391, 70.0, -523.1002229491733)
+[05:52:25 INFO]: Schatz lost connection: Disconnected
+[05:52:25 INFO]: Schatz left the game
+[06:00:16 INFO]: UUID of player matt18990 is db33f881-694f-3465-ac7f-128974eb7f31
+[06:00:16 INFO]: matt18990[/127.0.0.1:41188] logged in with entity id 224320 at ([world]-283.73816392169135, 71.0, -513.4371983915984)
+[06:02:43 INFO]: UUID of player Schatz is cb2e9018-573e-308d-a7e4-9c89f5ac4e8f
+[06:02:43 INFO]: Schatz[/127.0.0.1:41190] logged in with entity id 225236 at ([world]-278.5, 71.0, -517.5)
+[06:04:04 INFO]: UUID of player Zortwil is c94597c9-f9a6-3828-80f3-38dbd66e121c
+[06:04:04 INFO]: Zortwil[/127.0.0.1:41192] logged in with entity id 225642 at ([world]-217.44072141394037, 67.0, -512.9446264475793)
+[06:08:23 INFO]: <matt18990> eet
+[06:09:49 INFO]: Zortwil issued server command: /kill
+[06:09:54 INFO]: Zortwil issued server command: /kill z
+[06:10:02 INFO]: Zortwil issued server command: /op zortiasdflkj
+[06:10:34 INFO]: <Ninjustinja> have yall found a nether fortress yet?
+[06:10:41 INFO]: <Zortwil> justin the rail is amazing
+[06:10:42 INFO]: <matt18990> lmao we spent eight seconds in the nether
+[06:10:43 INFO]: <Zortwil> lmao
+[06:10:51 INFO]: <Ninjustinja> oh ok lol
+[06:11:00 INFO]: <Ninjustinja> im in right now
+[06:11:11 INFO]: <Ninjustinja> but i couldnt find anything for so long lol
+[06:11:21 INFO]: <Zortwil> we gotta all get together in one room and fight the dragon
+[06:12:04 INFO]: <Ninjustinja> we cant find the end portal if we dont find a nether fortress lol
+[06:12:08 INFO]: UUID of player nuttyfriutcake is be929b50-2f06-33a3-b78b-bffb43efcf53
+[06:12:08 INFO]: nuttyfriutcake[/127.0.0.1:41448] logged in with entity id 228897 at ([world]-214.5, 67.0, -200.5)
+[06:12:15 INFO]: <nuttyfriutcake> sup hoes
+[06:12:21 INFO]: <matt18990> LMAO
+[06:12:27 INFO]: <Ninjustinja> the nether fortress has blaze rods to create the eye of ender
+[06:12:31 INFO]: <Ninjustinja> herro
+[06:12:32 INFO]: <Zortwil> -275 -515 coords
+[06:12:43 INFO]: <nuttyfriutcake> tp me
+[06:12:45 INFO]: nuttyfriutcake issued server command: /tp
+[06:14:21 INFO]: nuttyfriutcake issued server command: /me
+[06:15:44 INFO]: nuttyfriutcake issued server command: /die
+[06:15:47 INFO]: nuttyfriutcake issued server command: /suicide
+[06:15:57 INFO]: matt18990 lost connection: Disconnected
+[06:15:57 INFO]: matt18990 left the game
+[06:15:57 INFO]: Zortwil has made the advancement [Take Aim]
+[06:15:57 INFO]: Schatz lost connection: Disconnected
+[06:15:57 INFO]: Schatz left the game
+[06:17:38 INFO]: Zortwil has made the advancement [Enchanter]
+[06:20:12 INFO]: UUID of player Schatz is cb2e9018-573e-308d-a7e4-9c89f5ac4e8f
+[06:20:12 INFO]: Schatz[/127.0.0.1:41580] logged in with entity id 232086 at ([world]-188.55957132264672, 17.0, -487.6999999880786)
+[06:21:07 INFO]: nuttyfriutcake has made the advancement [Suit Up]
+[06:21:31 INFO]: nuttyfriutcake has made the advancement [Isn't It Iron Pick]
+[06:24:16 INFO]: nuttyfriutcake has made the advancement [Stone Age]
+[06:24:38 INFO]: UUID of player K_Scratch is 1e0eb81f-404b-3118-be3e-1677318cbf7c
+[06:24:38 INFO]: K_Scratch[/127.0.0.1:41706] logged in with entity id 234235 at ([world]-279.5, 71.0, -514.5)
+[06:25:45 INFO]: nuttyfriutcake lost connection: Disconnected
+[06:25:45 INFO]: nuttyfriutcake left the game
+[06:27:05 INFO]: UUID of player matt18990 is db33f881-694f-3465-ac7f-128974eb7f31
+[06:27:05 INFO]: matt18990[/127.0.0.1:41792] logged in with entity id 235502 at ([world]-277.6634343639707, 71.5625, -514.894864689087)
+[06:33:30 INFO]: K_Scratch has made the advancement [Isn't It Iron Pick]
+[06:36:07 INFO]: UUID of player nuttyfriutcake is be929b50-2f06-33a3-b78b-bffb43efcf53
+[06:36:07 INFO]: nuttyfriutcake[/127.0.0.1:41884] logged in with entity id 239857 at ([world]-250.8168576933521, 71.0, -566.217695328448)
+[06:36:14 INFO]: Schatz lost connection: Disconnected
+[06:36:14 INFO]: Schatz left the game
+[06:36:16 INFO]: <Zortwil> guys can yall dc for a sec so randy can set spawn
+[06:36:18 INFO]: Zortwil lost connection: Disconnected
+[06:36:18 INFO]: Zortwil left the game
+[06:36:20 INFO]: matt18990 lost connection: Disconnected
+[06:36:20 INFO]: matt18990 left the game
+[06:36:22 INFO]: K_Scratch lost connection: Disconnected
+[06:36:22 INFO]: K_Scratch left the game
+[06:36:27 INFO]: nuttyfriutcake has made the advancement [Sweet Dreams]
+[06:36:53 INFO]: <nuttyfriutcake> leave hoes
+[06:37:30 INFO]: UUID of player matt18990 is db33f881-694f-3465-ac7f-128974eb7f31
+[06:37:30 INFO]: matt18990[/127.0.0.1:41982] logged in with entity id 240145 at ([world]-214.72003892672896, 60.0, -514.4697265732771)
+[06:37:31 INFO]: UUID of player Zortwil is c94597c9-f9a6-3828-80f3-38dbd66e121c
+[06:37:31 INFO]: Zortwil[/127.0.0.1:41984] logged in with entity id 240203 at ([world]-283.6133608889478, 71.0, -513.4511588201825)
+[06:37:33 INFO]: UUID of player Schatz is cb2e9018-573e-308d-a7e4-9c89f5ac4e8f
+[06:37:33 INFO]: Schatz[/127.0.0.1:41986] logged in with entity id 240216 at ([world]-252.93031452306002, 27.0, -558.9647182986038)
+[06:37:34 INFO]: UUID of player K_Scratch is 1e0eb81f-404b-3118-be3e-1677318cbf7c
+[06:37:34 INFO]: K_Scratch[/127.0.0.1:41988] logged in with entity id 240342 at ([world]-324.57315781240624, 12.0, -511.2297052242195)
+[06:37:48 INFO]: nuttyfriutcake issued server command: /spawnpoint
+[06:39:08 INFO]: Schatz has made the advancement [Take Aim]
+[06:39:20 INFO]: Stopping server
+[06:39:20 INFO]: Saving players
+[06:39:20 INFO]: xshadows73 lost connection: Server closed
+[06:39:20 INFO]: xshadows73 left the game
+[06:39:20 INFO]: Ninjustinja lost connection: Server closed
+[06:39:20 INFO]: Ninjustinja left the game
+[06:39:20 INFO]: nuttyfriutcake lost connection: Server closed
+[06:39:20 INFO]: nuttyfriutcake left the game
+[06:39:20 INFO]: matt18990 lost connection: Server closed
+[06:39:20 INFO]: matt18990 left the game
+[06:39:20 INFO]: Zortwil lost connection: Server closed
+[06:39:20 INFO]: Zortwil left the game
+[06:39:20 INFO]: Schatz lost connection: Server closed
+[06:39:20 INFO]: Schatz left the game
+[06:39:20 INFO]: K_Scratch lost connection: Server closed
+[06:39:20 INFO]: K_Scratch left the game
+[06:39:20 WARN]: handleDisconnection() called twice
+[06:39:20 WARN]: handleDisconnection() called twice
+[06:39:20 WARN]: handleDisconnection() called twice
+[06:39:20 WARN]: handleDisconnection() called twice
+[06:39:20 WARN]: handleDisconnection() called twice
+[06:39:20 WARN]: handleDisconnection() called twice
+[06:39:20 WARN]: handleDisconnection() called twice
+[06:39:20 INFO]: Saving worlds
+[06:39:20 INFO]: Saving chunks for level 'world'/minecraft:overworld
+[06:39:20 INFO]: Saving chunks for level 'world_nether'/minecraft:the_nether
+[06:39:20 INFO]: Saving chunks for level 'world_the_end'/minecraft:the_end
+connect_to 127.0.0.1 port 25565: failed.
+connect_to 127.0.0.1 port 25565: failed.
+connect_to 127.0.0.1 port 25565: failed.
+connect_to 127.0.0.1 port 25565: failed.
+connect_to 127.0.0.1 port 25565: failed.
+connect_to 127.0.0.1 port 25565: failed.
+connect_to 127.0.0.1 port 25565: failed.
+connect_to 127.0.0.1 port 25565: failed.
+connect_to 127.0.0.1 port 25565: failed.
+connect_to 127.0.0.1 port 25565: failed.
+connect_to 127.0.0.1 port 25565: failed.
+connect_to 127.0.0.1 port 25565: failed.
+connect_to 127.0.0.1 port 25565: failed.
+connect_to 127.0.0.1 port 25565: failed.
+connect_to 127.0.0.1 port 25565: failed.
+connect_to 127.0.0.1 port 25565: failed.
+connect_to 127.0.0.1 port 25565: failed.
+connect_to 127.0.0.1 port 25565: failed.
+connect_to 127.0.0.1 port 25565: failed.
+connect_to 127.0.0.1 port 25565: failed.
+connect_to 127.0.0.1 port 25565: failed.
+connect_to 127.0.0.1 port 25565: failed.
+connect_to 127.0.0.1 port 25565: failed.
+connect_to 127.0.0.1 port 25565: failed.
+connect_to 127.0.0.1 port 25565: failed.
+connect_to 127.0.0.1 port 25565: failed.
+connect_to 127.0.0.1 port 25565: failed.
+connect_to 127.0.0.1 port 25565: failed.
+connect_to 127.0.0.1 port 25565: failed.
+connect_to 127.0.0.1 port 25565: failed.
+connect_to 127.0.0.1 port 25565: failed.
+connect_to 127.0.0.1 port 25565: failed.
+connect_to 127.0.0.1 port 25565: failed.
+connect_to 127.0.0.1 port 25565: failed.
+connect_to 127.0.0.1 port 25565: failed.
+connect_to 127.0.0.1 port 25565: failed.
+Loading libraries, please wait...
+Loaded 0 recipes
+[06:40:45 INFO]: Loaded 0 recipes
+[06:40:45 INFO]: Starting minecraft server version 1.13.2
+[06:40:45 INFO]: Loading properties
+[06:40:45 ERROR]: Exception handling console input
+java.io.IOException: Bad file descriptor
+	at java.io.FileInputStream.readBytes(Native Method) ~[?:?]
+	at java.io.FileInputStream.read(FileInputStream.java:280) ~[?:?]
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:252) ~[?:?]
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:271) ~[?:?]
+	at org.bukkit.craftbukkit.libs.jline.internal.NonBlockingInputStream.read(NonBlockingInputStream.java:248) ~[spigot-1.13.2.jar:git-Spigot-f56e2e7-1a64d4a]
+	at org.bukkit.craftbukkit.libs.jline.internal.InputStreamReader.read(InputStreamReader.java:261) ~[spigot-1.13.2.jar:git-Spigot-f56e2e7-1a64d4a]
+	at org.bukkit.craftbukkit.libs.jline.internal.InputStreamReader.read(InputStreamReader.java:198) ~[spigot-1.13.2.jar:git-Spigot-f56e2e7-1a64d4a]
+	at org.bukkit.craftbukkit.libs.jline.console.ConsoleReader.readCharacter(ConsoleReader.java:2145) ~[spigot-1.13.2.jar:git-Spigot-f56e2e7-1a64d4a]
+	at org.bukkit.craftbukkit.libs.jline.console.ConsoleReader.readLineSimple(ConsoleReader.java:3183) ~[spigot-1.13.2.jar:git-Spigot-f56e2e7-1a64d4a]
+	at org.bukkit.craftbukkit.libs.jline.console.ConsoleReader.readLine(ConsoleReader.java:2333) ~[spigot-1.13.2.jar:git-Spigot-f56e2e7-1a64d4a]
+	at org.bukkit.craftbukkit.libs.jline.console.ConsoleReader.readLine(ConsoleReader.java:2269) ~[spigot-1.13.2.jar:git-Spigot-f56e2e7-1a64d4a]
+	at org.bukkit.craftbukkit.libs.jline.console.ConsoleReader.readLine(ConsoleReader.java:2257) ~[spigot-1.13.2.jar:git-Spigot-f56e2e7-1a64d4a]
+	at net.minecraft.server.v1_13_R2.DedicatedServer$2.run(DedicatedServer.java:93) [spigot-1.13.2.jar:git-Spigot-f56e2e7-1a64d4a]
+[06:40:45 INFO]: Default game type: SURVIVAL
+[06:40:46 INFO]: This server is running CraftBukkit version git-Spigot-f56e2e7-1a64d4a (MC: 1.13.2) (Implementing API version 1.13.2-R0.1-SNAPSHOT)
+[06:40:46 INFO]: Server Ping Player Sample Count: 12
+[06:40:46 INFO]: Using 4 threads for Netty based IO
+[06:40:46 INFO]: Debug logging is disabled
+[06:40:46 INFO]: Generating keypair
+[06:40:46 INFO]: Starting Minecraft server on *:25565
+[06:40:46 INFO]: Using epoll channel type
+[06:40:46 WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[06:40:46 WARN]: The server will make no attempt to authenticate usernames. Beware.
+[06:40:46 WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[06:40:46 WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[06:40:46 INFO]: Preparing level "world"
+[06:40:46 INFO]: Reloading ResourceManager: Default, bukkit
+[06:40:46 INFO]: UUID of player matt18990 is db33f881-694f-3465-ac7f-128974eb7f31
+[06:40:47 INFO]: Loaded 524 recipes
+[06:40:48 INFO]: -------- World Settings For [world] --------
+[06:40:48 INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[06:40:48 INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[06:40:48 INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[06:40:48 INFO]: Random Lighting Updates: false
+[06:40:48 INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[06:40:48 INFO]: Max TNT Explosions: 100
+[06:40:48 INFO]: Experience Merge Radius: 3.0
+[06:40:48 INFO]: Mob Spawn Range: 6
+[06:40:48 INFO]: Cactus Growth Modifier: 100%
+[06:40:48 INFO]: Cane Growth Modifier: 100%
+[06:40:48 INFO]: Melon Growth Modifier: 100%
+[06:40:48 INFO]: Mushroom Growth Modifier: 100%
+[06:40:48 INFO]: Pumpkin Growth Modifier: 100%
+[06:40:48 INFO]: Sapling Growth Modifier: 100%
+[06:40:48 INFO]: Beetroot Growth Modifier: 100%
+[06:40:48 INFO]: Carrot Growth Modifier: 100%
+[06:40:48 INFO]: Potato Growth Modifier: 100%
+[06:40:48 INFO]: Wheat Growth Modifier: 100%
+[06:40:48 INFO]: NetherWart Growth Modifier: 100%
+[06:40:48 INFO]: Vine Growth Modifier: 100%
+[06:40:48 INFO]: Cocoa Growth Modifier: 100%
+[06:40:48 INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[06:40:48 INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[06:40:48 INFO]: Item Merge Radius: 2.5
+[06:40:48 INFO]: Item Despawn Rate: 6000
+[06:40:48 INFO]: Arrow Despawn Rate: 1200
+[06:40:48 INFO]: View Distance: 10
+[06:40:48 INFO]: Zombie Aggressive Towards Villager: true
+[06:40:48 INFO]: Nerfing mobs spawned from spawners: false
+[06:40:48 INFO]: -------- World Settings For [world_nether] --------
+[06:40:48 INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[06:40:48 INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[06:40:48 INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[06:40:48 INFO]: Random Lighting Updates: false
+[06:40:48 INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[06:40:48 INFO]: Max TNT Explosions: 100
+[06:40:48 INFO]: Experience Merge Radius: 3.0
+[06:40:48 INFO]: Mob Spawn Range: 6
+[06:40:48 INFO]: Cactus Growth Modifier: 100%
+[06:40:48 INFO]: Cane Growth Modifier: 100%
+[06:40:48 INFO]: Melon Growth Modifier: 100%
+[06:40:48 INFO]: Mushroom Growth Modifier: 100%
+[06:40:48 INFO]: Pumpkin Growth Modifier: 100%
+[06:40:48 INFO]: Sapling Growth Modifier: 100%
+[06:40:48 INFO]: Beetroot Growth Modifier: 100%
+[06:40:48 INFO]: Carrot Growth Modifier: 100%
+[06:40:48 INFO]: Potato Growth Modifier: 100%
+[06:40:48 INFO]: Wheat Growth Modifier: 100%
+[06:40:48 INFO]: NetherWart Growth Modifier: 100%
+[06:40:48 INFO]: Vine Growth Modifier: 100%
+[06:40:48 INFO]: Cocoa Growth Modifier: 100%
+[06:40:48 INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[06:40:48 INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[06:40:48 INFO]: Item Merge Radius: 2.5
+[06:40:48 INFO]: Item Despawn Rate: 6000
+[06:40:48 INFO]: Arrow Despawn Rate: 1200
+[06:40:48 INFO]: View Distance: 10
+[06:40:48 INFO]: Zombie Aggressive Towards Villager: true
+[06:40:48 INFO]: Nerfing mobs spawned from spawners: false
+[06:40:48 INFO]: -------- World Settings For [world_the_end] --------
+[06:40:48 INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[06:40:48 INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[06:40:48 INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[06:40:48 INFO]: Random Lighting Updates: false
+[06:40:48 INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[06:40:48 INFO]: Max TNT Explosions: 100
+[06:40:48 INFO]: Experience Merge Radius: 3.0
+[06:40:48 INFO]: Mob Spawn Range: 6
+[06:40:48 INFO]: Cactus Growth Modifier: 100%
+[06:40:48 INFO]: Cane Growth Modifier: 100%
+[06:40:48 INFO]: Melon Growth Modifier: 100%
+[06:40:48 INFO]: Mushroom Growth Modifier: 100%
+[06:40:48 INFO]: Pumpkin Growth Modifier: 100%
+[06:40:48 INFO]: Sapling Growth Modifier: 100%
+[06:40:48 INFO]: Beetroot Growth Modifier: 100%
+[06:40:48 INFO]: Carrot Growth Modifier: 100%
+[06:40:48 INFO]: Potato Growth Modifier: 100%
+[06:40:48 INFO]: Wheat Growth Modifier: 100%
+[06:40:48 INFO]: NetherWart Growth Modifier: 100%
+[06:40:48 INFO]: Vine Growth Modifier: 100%
+[06:40:48 INFO]: Cocoa Growth Modifier: 100%
+[06:40:48 INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[06:40:48 INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[06:40:48 INFO]: Item Merge Radius: 2.5
+[06:40:48 INFO]: Item Despawn Rate: 6000
+[06:40:48 INFO]: Arrow Despawn Rate: 1200
+[06:40:48 INFO]: View Distance: 10
+[06:40:48 INFO]: Zombie Aggressive Towards Villager: true
+[06:40:48 INFO]: Nerfing mobs spawned from spawners: false
+[06:40:48 INFO]: Preparing start region for level minecraft:overworld (Seed: -6344503468567166097)
+[06:40:48 INFO]: Preparing spawn area: 4%
+[06:40:48 INFO]: Preparing spawn area: 8%
+[06:40:48 INFO]: Preparing spawn area: 12%
+[06:40:49 INFO]: Preparing spawn area: 16%
+[06:40:49 INFO]: Preparing spawn area: 20%
+[06:40:49 INFO]: Preparing spawn area: 24%
+[06:40:49 INFO]: Preparing spawn area: 28%
+[06:40:49 INFO]: Preparing spawn area: 32%
+[06:40:49 INFO]: Preparing spawn area: 36%
+[06:40:49 INFO]: Preparing spawn area: 40%
+[06:40:49 INFO]: Preparing spawn area: 44%
+[06:40:49 INFO]: UUID of player Zortwil is c94597c9-f9a6-3828-80f3-38dbd66e121c
+[06:40:49 INFO]: Preparing spawn area: 48%
+[06:40:49 INFO]: Preparing spawn area: 52%
+[06:40:49 INFO]: Preparing spawn area: 56%
+[06:40:49 INFO]: Preparing spawn area: 60%
+[06:40:49 INFO]: Preparing spawn area: 64%
+[06:40:49 INFO]: Preparing spawn area: 68%
+[06:40:49 INFO]: Preparing spawn area: 72%
+[06:40:49 INFO]: Preparing spawn area: 76%
+[06:40:49 INFO]: Preparing spawn area: 80%
+[06:40:50 INFO]: Preparing spawn area: 84%
+[06:40:50 INFO]: Preparing spawn area: 88%
+[06:40:50 INFO]: Preparing spawn area: 92%
+[06:40:50 INFO]: Preparing spawn area: 96%
+[06:40:50 INFO]: Preparing spawn area: 100%
+[06:40:50 INFO]: Preparing start region for level minecraft:the_nether (Seed: -6344503468567166097)
+[06:40:50 INFO]: Preparing spawn area: 4%
+[06:40:50 INFO]: Preparing spawn area: 8%
+[06:40:50 INFO]: Preparing spawn area: 12%
+[06:40:50 INFO]: Preparing spawn area: 16%
+[06:40:50 INFO]: Preparing spawn area: 20%
+[06:40:50 INFO]: Preparing spawn area: 24%
+[06:40:50 INFO]: Preparing spawn area: 28%
+[06:40:50 INFO]: Preparing spawn area: 32%
+[06:40:50 INFO]: Preparing spawn area: 36%
+[06:40:50 INFO]: Preparing spawn area: 40%
+[06:40:50 INFO]: Preparing spawn area: 44%
+[06:40:50 INFO]: Preparing spawn area: 48%
+[06:40:50 INFO]: Preparing spawn area: 52%
+[06:40:51 INFO]: Preparing spawn area: 56%
+[06:40:51 INFO]: Preparing spawn area: 60%
+[06:40:51 INFO]: Preparing spawn area: 64%
+[06:40:51 INFO]: Preparing spawn area: 68%
+[06:40:51 INFO]: Preparing spawn area: 72%
+[06:40:51 INFO]: Preparing spawn area: 76%
+[06:40:51 INFO]: Preparing spawn area: 80%
+[06:40:51 INFO]: Preparing spawn area: 84%
+[06:40:51 INFO]: Preparing spawn area: 88%
+[06:40:51 INFO]: Preparing spawn area: 92%
+[06:40:51 INFO]: Preparing spawn area: 96%
+[06:40:51 INFO]: Preparing spawn area: 100%
+[06:40:51 INFO]: Preparing start region for level minecraft:the_end (Seed: -6344503468567166097)
+[06:40:51 INFO]: Preparing spawn area: 4%
+[06:40:51 INFO]: Preparing spawn area: 8%
+[06:40:51 INFO]: Preparing spawn area: 12%
+[06:40:51 INFO]: Preparing spawn area: 16%
+[06:40:51 INFO]: Preparing spawn area: 20%
+[06:40:51 INFO]: Preparing spawn area: 24%
+[06:40:51 INFO]: Preparing spawn area: 28%
+[06:40:51 INFO]: Preparing spawn area: 32%
+[06:40:51 INFO]: Preparing spawn area: 36%
+[06:40:51 INFO]: Preparing spawn area: 40%
+[06:40:51 INFO]: Preparing spawn area: 44%
+[06:40:51 INFO]: Preparing spawn area: 48%
+[06:40:51 INFO]: Preparing spawn area: 52%
+[06:40:51 INFO]: Preparing spawn area: 56%
+[06:40:51 INFO]: Preparing spawn area: 60%
+[06:40:51 INFO]: Preparing spawn area: 64%
+[06:40:51 INFO]: Preparing spawn area: 68%
+[06:40:51 INFO]: Preparing spawn area: 72%
+[06:40:51 INFO]: Preparing spawn area: 76%
+[06:40:51 INFO]: Preparing spawn area: 80%
+[06:40:51 INFO]: Preparing spawn area: 84%
+[06:40:51 INFO]: Preparing spawn area: 88%
+[06:40:51 INFO]: Preparing spawn area: 92%
+[06:40:51 INFO]: Preparing spawn area: 96%
+[06:40:51 INFO]: Preparing spawn area: 100%
+[06:40:51 INFO]: Time elapsed: 3598 ms
+[06:40:51 INFO]: Server permissions file permissions.yml is empty, ignoring it
+[06:40:51 INFO]: Done (5.171s)! For help, type "help"
+[06:40:52 INFO]: com.mojang.authlib.GameProfile@5a92b1f5[id=db33f881-694f-3465-ac7f-128974eb7f31,name=matt18990,properties={},legacy=false] (/127.0.0.1:42102) lost connection: Disconnected
+[06:40:53 INFO]: Zortwil[/127.0.0.1:42104] logged in with entity id 165 at ([world]-276.62760802714246, 71.0, -513.9996304478241)
+[06:40:57 INFO]: UUID of player Schatz is cb2e9018-573e-308d-a7e4-9c89f5ac4e8f
+[06:40:57 INFO]: Schatz[/127.0.0.1:42106] logged in with entity id 399 at ([world]-245.8108140097238, 20.0, -558.3492222523686)
+[06:40:59 INFO]: UUID of player matt18990 is db33f881-694f-3465-ac7f-128974eb7f31
+[06:40:59 INFO]: matt18990[/127.0.0.1:42108] logged in with entity id 439 at ([world]-281.0767817792841, 71.07472379453526, -513.6094774383174)
+[06:41:02 INFO]: UUID of player K_Scratch is 1e0eb81f-404b-3118-be3e-1677318cbf7c
+[06:41:03 INFO]: K_Scratch[/127.0.0.1:42110] logged in with entity id 589 at ([world]-277.51780969937533, 71.5625, -517.7880853394826)
+[06:41:09 INFO]: UUID of player Ninjustinja is 6a6fd91b-fc5f-3a99-b359-b914cfda236c
+[06:41:10 INFO]: Ninjustinja[/127.0.0.1:42114] logged in with entity id 913 at ([world_nether]26.07729203038277, 50.0, -57.545099206770615)
+[06:41:14 INFO]: Ninjustinja issued server command: /help
+[06:44:55 INFO]: UUID of player xshadows73 is 9fa8340e-046e-3ca1-aae6-dbef82fb83d5
+[06:44:56 INFO]: xshadows73[/127.0.0.1:42206] logged in with entity id 3500 at ([world]-587.4425530874557, 63.0, -81.5994391749376)
+[06:49:41 INFO]: UUID of player Kkevlar is 273c5da9-5af5-33da-896c-6f3708a12d7b
+[06:49:41 INFO]: Kkevlar[/127.0.0.1:42296] logged in with entity id 5757 at ([world]-238.09055700735664, 65.0, -183.30000001192093)
+[06:54:24 INFO]: Kkevlar has made the advancement [Sweet Dreams]
+[06:55:46 INFO]: Kkevlar has made the advancement [Stone Age]
+[06:56:30 INFO]: Kkevlar has made the advancement [Isn't It Iron Pick]
+[06:57:04 INFO]: Ninjustinja was slain by Phantom
+[06:57:05 INFO]: Kkevlar has made the advancement [Acquire Hardware]
+[06:59:52 INFO]: Kkevlar lost connection: Timed out
+[06:59:52 INFO]: Kkevlar left the game
+[07:08:29 INFO]: matt18990 has made the advancement [The Parrots and the Bats]
+[07:11:35 INFO]: K_Scratch lost connection: Disconnected
+[07:11:35 INFO]: K_Scratch left the game
+[07:14:30 INFO]: xshadows73 lost connection: Disconnected
+[07:14:30 INFO]: xshadows73 left the game
+[07:17:31 INFO]: Ninjustinja issued server command: /weather clear
+[07:22:07 WARN]: Ninjustinja moved too quickly! -15.88018865817753,3.0,-0.1730509885290985
+[07:22:26 INFO]: Schatz has made the advancement [Enchanter]
+[07:42:30 INFO]: Ninjustinja was slain by Enderman
+[07:50:48 INFO]: matt18990 lost connection: Disconnected
+[07:50:48 INFO]: matt18990 left the game
+[07:50:58 INFO]: <Schatz> bai for both
+[07:51:04 INFO]: Schatz lost connection: Disconnected
+[07:51:04 INFO]: Schatz left the game
+[07:52:20 INFO]: Zortwil lost connection: Disconnected
+[07:52:20 INFO]: Zortwil left the game
+[07:56:46 INFO]: Ninjustinja lost connection: Disconnected
+[07:56:46 INFO]: Ninjustinja left the game
+[08:14:53 INFO]: UUID of player nuttyfriutcake is be929b50-2f06-33a3-b78b-bffb43efcf53
+[08:14:54 INFO]: nuttyfriutcake[/127.0.0.1:43770] logged in with entity id 35362 at ([world]-282.69999998807907, 71.0, -513.838204006982)
+[08:15:30 INFO]: nuttyfriutcake lost connection: Disconnected
+[08:15:30 INFO]: nuttyfriutcake left the game
+[08:30:58 INFO]: UUID of player nuttyfriutcake is be929b50-2f06-33a3-b78b-bffb43efcf53
+[08:30:58 INFO]: nuttyfriutcake[/127.0.0.1:44044] logged in with entity id 35658 at ([world]-278.5636362665588, 71.5625, -515.0393363987718)
+[08:31:01 INFO]: nuttyfriutcake lost connection: Disconnected
+[08:31:01 INFO]: nuttyfriutcake left the game
+[08:31:35 INFO]: UUID of player togawe is 7249c8d2-1e63-36d4-8e77-43c5898c59c0
+[08:31:35 INFO]: togawe[/127.0.0.1:44050] logged in with entity id 35876 at ([world]-229.5, 68.0, -192.5)
+[08:32:11 INFO]: UUID of player nuttyfriutcake is be929b50-2f06-33a3-b78b-bffb43efcf53
+[08:32:12 INFO]: nuttyfriutcake[/127.0.0.1:44052] logged in with entity id 36082 at ([world]-278.5636362665588, 71.5625, -515.0393363987718)
+[08:32:16 INFO]: <nuttyfriutcake> suck my dick sam
+[08:32:18 INFO]: <togawe> hi randy
+[08:32:23 INFO]: <togawe> no fuck you
+[08:32:25 INFO]: <nuttyfriutcake> no u
+[08:32:33 INFO]: <nuttyfriutcake> fuck i need to do physics
+[08:32:33 INFO]: <nuttyfriutcake> brb
+[08:32:34 INFO]: nuttyfriutcake lost connection: Disconnected
+[08:32:34 INFO]: nuttyfriutcake left the game
+[08:33:06 INFO]: togawe has made the advancement [Stone Age]
+[08:33:14 INFO]: togawe has made the advancement [Getting an Upgrade]
+[08:39:10 INFO]: UUID of player nuttyfriutcake is be929b50-2f06-33a3-b78b-bffb43efcf53
+[08:39:11 INFO]: nuttyfriutcake[/127.0.0.1:44164] logged in with entity id 36821 at ([world]-273.76249998807907, 71.0, -515.4878300801112)
+[08:39:18 INFO]: nuttyfriutcake issued server command: /me sucks ashwins dick
+[08:39:18 INFO]: * nuttyfriutcake sucks ashwins dick
+[08:39:34 INFO]: <togawe> gay
+[08:39:36 INFO]: <nuttyfriutcake> no u
+[08:39:36 INFO]: togawe has made the advancement [Acquire Hardware]
+[08:39:42 INFO]: <nuttyfriutcake> stfu ashwin
+[08:39:43 INFO]: togawe has made the advancement [Isn't It Iron Pick]
+[08:40:02 INFO]: togawe lost connection: Disconnected
+[08:40:02 INFO]: togawe left the game
+[08:41:29 INFO]: nuttyfriutcake lost connection: Disconnected
+[08:41:29 INFO]: nuttyfriutcake left the game
+[08:42:17 INFO]: UUID of player togawe is 7249c8d2-1e63-36d4-8e77-43c5898c59c0
+[08:42:17 INFO]: togawe[/127.0.0.1:44262] logged in with entity id 38074 at ([world]-204.69999998807907, 36.0, -189.19978597203158)
+[08:51:33 INFO]: togawe has made the advancement [Suit Up]
+[08:58:17 INFO]: togawe has made the advancement [Diamonds!]
+[09:06:46 INFO]: togawe has made the advancement [Monster Hunter]
+[09:09:58 INFO]: UUID of player nuttyfriutcake is be929b50-2f06-33a3-b78b-bffb43efcf53
+[09:09:58 INFO]: nuttyfriutcake[/127.0.0.1:44724] logged in with entity id 41285 at ([world]-416.5520564840419, 66.0, -517.0003824442945)
+[09:09:59 INFO]: togawe has made the advancement [Ice Bucket Challenge]
+[09:10:05 INFO]: <nuttyfriutcake> how 2 xray
+[09:10:11 INFO]: <togawe> strip mine
+[09:12:23 INFO]: nuttyfriutcake lost connection: Disconnected
+[09:12:23 INFO]: nuttyfriutcake left the game
+[09:29:16 INFO]: UUID of player Zortwil is c94597c9-f9a6-3828-80f3-38dbd66e121c
+[09:29:17 INFO]: Zortwil[/127.0.0.1:45106] logged in with entity id 44988 at ([world]-205.5344928122712, 67.0, -512.0727694490395)
+[09:29:19 INFO]: <togawe> howdy
+[09:29:26 INFO]: <Zortwil> hi who dis
+[09:29:30 INFO]: <togawe> ashwin's friend
+[09:29:35 INFO]: <Zortwil> bitch wtf
+[09:30:20 INFO]: togawe has made the advancement [We Need to Go Deeper]
+[09:30:38 INFO]: Zortwil lost connection: Disconnected
+[09:30:38 INFO]: Zortwil left the game
+[09:31:38 INFO]: togawe has made the advancement [Sweet Dreams]
+[09:32:55 INFO]: togawe has made the advancement [A Seedy Place]
+[09:35:22 INFO]: togawe has made the advancement [The Parrots and the Bats]
+[09:48:42 INFO]: UUID of player LionMoon_ is 031ad48a-fe16-355c-93ab-d7f784ab36fd
+[09:48:43 INFO]: LionMoon_[/127.0.0.1:45396] logged in with entity id 49734 at ([world]-278.4589424942412, 71.5625, -516.9921184395546)
+[09:48:46 INFO]: <togawe> hi
+[09:48:49 INFO]: <LionMoon_> who this
+[09:49:01 INFO]: <togawe> randy's friend
+[09:49:08 INFO]: <LionMoon_> lmao huh
+[09:49:17 INFO]: <LionMoon_> im ded
+[09:49:38 INFO]: <LionMoon_> do u go to slo
+[09:50:00 INFO]: <togawe> no
+[09:50:03 INFO]: <LionMoon_> o
+[09:57:29 INFO]: <togawe> welcome
+[09:58:29 INFO]: <LionMoon_> very nice
+[09:58:32 INFO]: <togawe> ty
+[10:01:51 INFO]: UUID of player nuttyfriutcake is be929b50-2f06-33a3-b78b-bffb43efcf53
+[10:01:51 INFO]: nuttyfriutcake[/127.0.0.1:45668] logged in with entity id 54968 at ([world]-323.9354966743771, 17.0, -570.684142962331)
+[10:01:55 INFO]: <togawe> hi randy
+[10:02:00 INFO]: <nuttyfriutcake> whos lionmoon
+[10:02:03 INFO]: <LionMoon_> friut
+[10:02:08 INFO]: <nuttyfriutcake> cock
+[10:03:53 INFO]: nuttyfriutcake has made the advancement [Monster Hunter]
+[10:05:58 INFO]: LionMoon_ lost connection: Disconnected
+[10:05:58 INFO]: LionMoon_ left the game
+[10:07:12 WARN]: nuttyfriutcake moved wrongly!
+[10:08:28 INFO]: <nuttyfriutcake> lmao did u put this lava shit
+[10:08:32 INFO]: <togawe> no
+[10:08:40 INFO]: <nuttyfriutcake> what the aids
+[10:08:55 INFO]: UUID of player shak1230 is de8ac370-f5c5-3520-a137-608227c2abcf
+[10:08:55 INFO]: shak1230[/127.0.0.1:45782] logged in with entity id 56701 at ([world]-229.5, 68.0, -201.5)
+[10:09:03 INFO]: <nuttyfriutcake> shak whaddup its randy
+[10:09:23 INFO]: <shak1230> oh snap whats good
+[10:10:21 INFO]: nuttyfriutcake has made the advancement [A Seedy Place]
+[10:10:21 INFO]: UUID of player Zortwil is c94597c9-f9a6-3828-80f3-38dbd66e121c
+[10:10:22 INFO]: Zortwil[/127.0.0.1:45786] logged in with entity id 57176 at ([world]-231.32509907579635, 68.0, -521.1103884292361)
+[10:10:32 INFO]: <shak1230> omg its zortwil
+[10:10:37 INFO]: <Zortwil> ew
+[10:10:52 INFO]: <shak1230> wheres twilzor at :(
+[10:10:57 INFO]: <Zortwil> rip jdonn
+[10:11:21 INFO]: <shak1230> bro wtf is this new mc
+[10:11:27 INFO]: <Zortwil> ik lmfao
+[10:11:36 INFO]: <nuttyfriutcake> i just want a trident
+[10:11:45 INFO]: <Zortwil> fuck is a trident
+[10:11:45 INFO]: <shak1230> legit narrating every sound in subtitles wow
+[10:11:51 INFO]: <nuttyfriutcake> i saw it on the wiki
+[10:11:55 INFO]: <nuttyfriutcake> you can throw it and shit
+[10:11:55 INFO]: <Zortwil> shii
+[10:12:00 INFO]: <shak1230> damn they had a aquaman colab
+[10:12:00 INFO]: <Zortwil> lmao what do you need for it
+[10:12:12 INFO]: nuttyfriutcake has made the advancement [Acquire Hardware]
+[10:13:34 INFO]: Zortwil lost connection: Disconnected
+[10:13:34 INFO]: Zortwil left the game
+[10:14:34 INFO]: shak1230 lost connection: Disconnected
+[10:14:34 INFO]: shak1230 left the game
+[10:14:51 INFO]: <togawe> randy come check out my base
+[10:24:12 INFO]: <togawe> r a n dy
+[10:24:15 INFO]: <nuttyfriutcake> what
+[10:24:21 INFO]: <togawe> ashwin says you have aids
+[10:24:28 INFO]: <nuttyfriutcake> guilty as charged
+[10:24:38 INFO]: <togawe> he's really sad he can't play minecraft
+[10:24:42 INFO]: <togawe> so he's playing mirrors edge
+[10:24:45 INFO]: <nuttyfriutcake> tell him hes an idiot
+[10:25:19 INFO]: <togawe> i built a base
+[10:25:23 INFO]: <nuttyfriutcake> where
+[10:25:24 INFO]: <togawe> you can see it from the treehouse thing
+[10:25:36 INFO]: <nuttyfriutcake> im looking for a place to build my house
+[10:25:53 INFO]: <togawe> i'm at -280 x
+[10:25:57 INFO]: <togawe> -623 z
+[10:26:25 INFO]: <nuttyfriutcake> ur odee far
+[10:30:33 INFO]: togawe lost connection: Disconnected
+[10:30:33 INFO]: togawe left the game
+[10:39:58 INFO]: nuttyfriutcake lost connection: Disconnected
+[10:39:58 INFO]: nuttyfriutcake left the game
+[11:43:10 INFO]: UUID of player Ninjustinja is 6a6fd91b-fc5f-3a99-b359-b914cfda236c
+[11:43:11 INFO]: Ninjustinja[/127.0.0.1:47408] logged in with entity id 65116 at ([world]-279.5, 71.0, -513.5)
+[11:55:19 INFO]: Ninjustinja issued server command: /seed
+[12:09:42 INFO]: Ninjustinja lost connection: Disconnected
+[12:09:42 INFO]: Ninjustinja left the game
+[12:10:23 INFO]: UUID of player Ninjustinja is 6a6fd91b-fc5f-3a99-b359-b914cfda236c
+[12:10:24 INFO]: Ninjustinja[/127.0.0.1:47864] logged in with entity id 70312 at ([world]-279.82988692736734, 71.0, -513.2851442929657)
+[12:10:28 INFO]: Ninjustinja issued server command: /seed
+[12:10:41 INFO]: Ninjustinja lost connection: Disconnected
+[12:10:41 INFO]: Ninjustinja left the game
+[12:14:13 INFO]: UUID of player Ninjustinja is 6a6fd91b-fc5f-3a99-b359-b914cfda236c
+[12:14:13 INFO]: Ninjustinja[/127.0.0.1:47872] logged in with entity id 70526 at ([world]-279.82988692736734, 71.0, -513.2851442929657)
+[12:28:06 INFO]: Ninjustinja lost connection: Disconnected
+[12:28:06 INFO]: Ninjustinja left the game
+[19:08:40 INFO]: UUID of player Ninjustinja is 6a6fd91b-fc5f-3a99-b359-b914cfda236c
+[19:08:41 INFO]: Ninjustinja[/127.0.0.1:55062] logged in with entity id 71759 at ([world]-278.17606472246916, 71.5625, -514.4926967871687)
+[20:03:00 INFO]: Ninjustinja lost connection: Disconnected
+[20:03:00 INFO]: Ninjustinja left the game
+[21:12:37 INFO]: UUID of player togawe is 7249c8d2-1e63-36d4-8e77-43c5898c59c0
+[21:12:37 INFO]: togawe[/127.0.0.1:57234] logged in with entity id 81022 at ([world]-283.6459009115853, 95.0, -630.6999999880791)
+[22:48:23 INFO]: togawe lost connection: Disconnected
+[22:48:23 INFO]: togawe left the game
+[23:06:45 INFO]: UUID of player nuttyfriutcake is be929b50-2f06-33a3-b78b-bffb43efcf53
+[23:06:45 INFO]: nuttyfriutcake[/127.0.0.1:59134] logged in with entity id 93945 at ([world]-145.01605905403352, 63.0, -762.0983414234441)
+[23:23:56 INFO]: nuttyfriutcake issued server command: /world seed
+[23:23:58 INFO]: nuttyfriutcake issued server command: /seed
+[23:24:00 INFO]: nuttyfriutcake issued server command: /world
+[23:34:24 INFO]: nuttyfriutcake lost connection: Disconnected
+[23:34:24 INFO]: nuttyfriutcake left the game
+[23:43:11 INFO]: UUID of player Ninjustinja is 6a6fd91b-fc5f-3a99-b359-b914cfda236c
+[23:43:12 INFO]: Ninjustinja[/127.0.0.1:59792] logged in with entity id 98377 at ([world]-280.08143923969106, 71.0, -513.1798218810909)
+[00:10:44 INFO]: Ninjustinja lost connection: Disconnected
+[00:10:44 INFO]: Ninjustinja left the game
+[00:14:48 INFO]: UUID of player nuttyfriutcake is be929b50-2f06-33a3-b78b-bffb43efcf53
+[00:14:49 INFO]: nuttyfriutcake[/127.0.0.1:60334] logged in with entity id 104104 at ([world]-146.7902787927484, 67.0, -770.3492630837128)
+[00:24:36 INFO]: nuttyfriutcake lost connection: Disconnected
+[00:24:37 INFO]: nuttyfriutcake left the game
+[00:40:41 INFO]: UUID of player Zortwil is c94597c9-f9a6-3828-80f3-38dbd66e121c
+[00:40:41 INFO]: Zortwil[/127.0.0.1:60722] logged in with entity id 105263 at ([world]-279.7944774806518, 71.0, -513.9544661586517)
+[00:51:43 INFO]: Zortwil has made the advancement [Hot Stuff]
+[01:30:54 INFO]: UUID of player matt18990 is db33f881-694f-3465-ac7f-128974eb7f31
+[01:30:54 INFO]: matt18990[/127.0.0.1:33448] logged in with entity id 115425 at ([world]-278.3713901472489, 71.0, -507.2466951320721)
+[01:33:07 INFO]: Zortwil lost connection: Disconnected
+[01:33:07 INFO]: Zortwil left the game
+[01:35:24 INFO]: matt18990 has made the advancement [Hot Stuff]
+[01:36:06 INFO]: UUID of player Zortwil is c94597c9-f9a6-3828-80f3-38dbd66e121c
+[01:36:06 INFO]: Zortwil[/127.0.0.1:33532] logged in with entity id 116552 at ([world]-211.83678557402501, 66.0, -525.6784872510145)
+[01:36:37 INFO]: matt18990 lost connection: Disconnected
+[01:36:37 INFO]: matt18990 left the game
+[01:37:01 INFO]: UUID of player matt18990 is db33f881-694f-3465-ac7f-128974eb7f31
+[01:37:01 INFO]: matt18990[/127.0.0.1:33538] logged in with entity id 116715 at ([world]-176.8504026216654, 12.0, -532.9364426931566)
+[01:42:11 INFO]: matt18990 lost connection: Disconnected
+[01:42:11 INFO]: matt18990 left the game
+[01:45:11 INFO]: Zortwil lost connection: Disconnected
+[01:45:11 INFO]: Zortwil left the game
+[01:46:14 INFO]: UUID of player Zortwil is c94597c9-f9a6-3828-80f3-38dbd66e121c
+[01:46:15 INFO]: Zortwil[/127.0.0.1:33722] logged in with entity id 120416 at ([world]-286.16091362962356, 71.0, -512.7299652658621)
+[01:48:08 INFO]: UUID of player matt18990 is db33f881-694f-3465-ac7f-128974eb7f31
+[01:48:08 INFO]: matt18990[/127.0.0.1:33724] logged in with entity id 121158 at ([world]-182.69999998807907, 11.0, -481.69999998807907)
+[01:54:26 INFO]: UUID of player Ninjustinja is 6a6fd91b-fc5f-3a99-b359-b914cfda236c
+[01:54:27 INFO]: Ninjustinja[/127.0.0.1:33818] logged in with entity id 122687 at ([world]-276.0282318144869, 71.0, -514.080164992712)
+[01:54:30 INFO]: <Zortwil> hello
+[01:54:33 INFO]: <Ninjustinja> herro
+[01:54:51 INFO]: <Ninjustinja> miencraft is the end of my gpa
+[01:54:55 INFO]: <Ninjustinja> rip
+[01:54:55 INFO]: <Zortwil> honestly
+[01:54:57 INFO]: <matt18990> we kno
+[02:09:53 INFO]: Zortwil lost connection: Disconnected
+[02:09:53 INFO]: Zortwil left the game
+[02:12:42 INFO]: UUID of player Zortwil is c94597c9-f9a6-3828-80f3-38dbd66e121c
+[02:12:43 INFO]: Zortwil[/127.0.0.1:34196] logged in with entity id 129370 at ([world]-235.0420738813502, 68.0, -517.7950757887439)
+[02:13:48 INFO]: matt18990 lost connection: Disconnected
+[02:13:48 INFO]: matt18990 left the game
+[02:17:23 INFO]: UUID of player matt18990 is db33f881-694f-3465-ac7f-128974eb7f31
+[02:17:23 INFO]: matt18990[/127.0.0.1:34200] logged in with entity id 130601 at ([world]-226.5028333326447, 11.0, -434.01630392499095)
+[02:20:30 INFO]: matt18990 lost connection: Disconnected
+[02:20:30 INFO]: matt18990 left the game
+[02:32:22 INFO]: UUID of player matt18990 is db33f881-694f-3465-ac7f-128974eb7f31
+[02:32:22 INFO]: matt18990[/127.0.0.1:34472] logged in with entity id 135717 at ([world]-242.08454665989512, 72.0, -379.9204301316011)
+[02:32:34 INFO]: matt18990 lost connection: Disconnected
+[02:32:34 INFO]: matt18990 left the game
+[02:32:45 INFO]: <Ninjustinja> has anyone found the nether fortress yet?
+[02:32:58 INFO]: <Ninjustinja> ive been lookin for ages
+[02:33:03 INFO]: <Ninjustinja> but cant find anything
+[02:33:23 INFO]: <Zortwil> nope went in the nether like once
+[02:34:15 INFO]: <Ninjustinja> oof
+[02:35:00 INFO]: UUID of player nuttyfriutcake is be929b50-2f06-33a3-b78b-bffb43efcf53
+[02:35:00 INFO]: nuttyfriutcake[/127.0.0.1:34566] logged in with entity id 136450 at ([world]-147.42696536114383, 63.0, -766.7186979382889)
+[02:40:53 INFO]: Ninjustinja burned to death
+[02:41:00 INFO]: <Zortwil> :(
+[02:41:04 INFO]: nuttyfriutcake issued server command: /me laughs
+[02:41:04 INFO]: * nuttyfriutcake laughs
+[02:45:04 INFO]: <Ninjustinja> fuck dude
+[02:45:18 INFO]: <Ninjustinja> that was alot of valuale shit
+[02:45:23 INFO]: <Zortwil> feelsbadman
+[02:45:45 INFO]: Ninjustinja tried to swim in lava
+[02:45:49 INFO]: <Zortwil> bruh
+[02:46:06 INFO]: <Ninjustinja> on purpose to respawn better
+[02:50:40 INFO]: nuttyfriutcake lost connection: Timed out
+[02:50:40 INFO]: nuttyfriutcake left the game
+[02:51:41 INFO]: UUID of player nuttyfriutcake is be929b50-2f06-33a3-b78b-bffb43efcf53
+[02:51:42 INFO]: nuttyfriutcake[/127.0.0.1:34832] logged in with entity id 148016 at ([world]-145.58837460565695, 63.0, -767.6729867906565)
+[02:52:02 INFO]: <Ninjustinja> cant figure out where i lost my stuff smh
+[02:52:12 INFO]: <Zortwil> prob despawned by now
+[02:52:16 INFO]: <Ninjustinja> prob
+[03:03:28 INFO]: <Ninjustinja> i cant seem to figure out where i died l
+[03:03:33 INFO]: <Ninjustinja> smfh
+[03:03:40 INFO]: <Zortwil> your stuff is def despawned by now
+[03:03:43 INFO]: <Zortwil> its like 5 mins or smth
+[03:03:56 INFO]: <Ninjustinja> i still would like to know where the tf i died tho lol
+[03:05:08 INFO]: UUID of player matt18990 is db33f881-694f-3465-ac7f-128974eb7f31
+[03:05:08 INFO]: matt18990[/127.0.0.1:35032] logged in with entity id 153369 at ([world]-244.5828016948569, 72.0, -381.0435636467898)
+[03:05:16 INFO]: <nuttyfriutcake> whos this hoe
+[03:10:37 INFO]: <Zortwil> justin ready for mc at jsa
+[03:11:01 INFO]: <Ninjustinja> mc?
+[03:11:08 INFO]: <Zortwil> mine craft
+[03:11:10 INFO]: <Zortwil> lmfao
+[03:11:14 INFO]: <Ninjustinja> lmfao
+[03:12:25 INFO]: UUID of player Schatz is cb2e9018-573e-308d-a7e4-9c89f5ac4e8f
+[03:12:25 INFO]: Schatz[/127.0.0.1:35214] logged in with entity id 156373 at ([world]-267.7611207617836, 70.0, -495.36819763734064)
+[03:14:30 INFO]: matt18990 has made the advancement [Enchanter]
+[03:22:47 INFO]: <Ninjustinja> found where i died lol
+[03:22:55 INFO]: <Zortwil> lmao wtf is your stuff still there
+[03:22:55 INFO]: <matt18990> wtf
+[03:23:02 INFO]: <Ninjustinja> but everythings gone :'(
+[03:23:06 INFO]: <Zortwil> yeahhh
+[03:23:07 INFO]: <matt18990> oh
+[03:23:10 INFO]: <matt18990> r i p
+[03:23:14 INFO]: <Ninjustinja> R I P
+[03:29:23 INFO]: Schatz lost connection: Disconnected
+[03:29:23 INFO]: Schatz left the game
+[03:30:09 INFO]: UUID of player Schatz is cb2e9018-573e-308d-a7e4-9c89f5ac4e8f
+[03:30:09 INFO]: Schatz[/127.0.0.1:35484] logged in with entity id 163755 at ([world]-264.69999998807907, 95.0, -477.30000001192093)
+[03:31:05 INFO]: Zortwil lost connection: Disconnected
+[03:31:05 INFO]: Zortwil left the game
+[03:33:46 INFO]: <matt18990> jello justn
+[03:33:50 INFO]: <Ninjustinja> henro
+[03:34:06 INFO]: <Ninjustinja> oofed
+[03:34:15 INFO]: <Ninjustinja> i had so many diamonds :'(
+[03:40:40 INFO]: Schatz lost connection: Disconnected
+[03:40:40 INFO]: Schatz left the game
+[03:43:00 INFO]: matt18990 lost connection: Disconnected
+[03:43:00 INFO]: matt18990 left the game
+[03:48:03 INFO]: Ninjustinja lost connection: Disconnected
+[03:48:03 INFO]: Ninjustinja left the game
+[03:49:15 INFO]: UUID of player Zortwil is c94597c9-f9a6-3828-80f3-38dbd66e121c
+[03:49:16 INFO]: Zortwil[/127.0.0.1:35876] logged in with entity id 170751 at ([world]-288.99815669044887, 71.0, -512.824513438531)
+[03:49:25 INFO]: nuttyfriutcake has made the advancement [Diamonds!]
+[03:50:14 INFO]: Zortwil lost connection: Disconnected
+[03:50:15 INFO]: Zortwil left the game
+[04:03:08 INFO]: nuttyfriutcake lost connection: Timed out
+[04:03:08 INFO]: nuttyfriutcake left the game
+[04:14:48 INFO]: UUID of player matt18990 is db33f881-694f-3465-ac7f-128974eb7f31
+[04:14:48 INFO]: matt18990[/127.0.0.1:36306] logged in with entity id 183935 at ([world]-280.002524644554, 71.0, -514.8854784428688)
+[04:21:37 INFO]: matt18990 lost connection: Disconnected
+[04:21:37 INFO]: matt18990 left the game
+[04:30:48 INFO]: UUID of player matt18990 is db33f881-694f-3465-ac7f-128974eb7f31
+[04:30:49 INFO]: matt18990[/127.0.0.1:36578] logged in with entity id 185717 at ([world]-287.4478744474419, 70.0, -534.951283031143)
+[04:31:58 INFO]: matt18990 lost connection: Disconnected
+[04:31:58 INFO]: matt18990 left the game
+[05:03:16 INFO]: UUID of player Zortwil is c94597c9-f9a6-3828-80f3-38dbd66e121c
+[05:03:16 INFO]: Zortwil[/127.0.0.1:37178] logged in with entity id 186203 at ([world]-292.26734454385394, 68.0, -506.30449746276344)
+[05:05:05 INFO]: UUID of player matt18990 is db33f881-694f-3465-ac7f-128974eb7f31
+[05:05:05 INFO]: matt18990[/127.0.0.1:37276] logged in with entity id 186825 at ([world]-294.6250576787879, 71.0, -520.183466408698)
+[05:05:29 INFO]: <matt18990> hey
+[05:06:57 INFO]: Zortwil lost connection: Timed out
+[05:06:57 INFO]: Zortwil left the game
+[05:07:45 INFO]: UUID of player Zortwil is c94597c9-f9a6-3828-80f3-38dbd66e121c
+[05:07:45 INFO]: Zortwil[/127.0.0.1:37278] logged in with entity id 187560 at ([world]-284.0513573061258, 71.0, -513.9557669271072)
+[05:07:53 INFO]: <Zortwil> HELLO
+[05:07:58 INFO]: <matt18990> bitch
+[05:10:27 INFO]: Zortwil lost connection: Disconnected
+[05:10:27 INFO]: Zortwil left the game
+[05:11:07 INFO]: UUID of player Zortwil is c94597c9-f9a6-3828-80f3-38dbd66e121c
+[05:11:07 INFO]: Zortwil[/127.0.0.1:37378] logged in with entity id 188574 at ([world]-275.9884496206464, 71.0, -514.1460080509678)
+[05:11:16 INFO]: <Zortwil> wheres the iron
+[05:11:25 INFO]: <Zortwil> other than in the fucking door
+[05:11:29 INFO]: <Zortwil> oh
+[05:11:31 INFO]: <Zortwil> in the dirk
+[05:11:32 INFO]: <Zortwil> dirt
+[05:11:39 INFO]: UUID of player LionMoon_ is 031ad48a-fe16-355c-93ab-d7f784ab36fd
+[05:11:39 INFO]: LionMoon_[/127.0.0.1:37382] logged in with entity id 188799 at ([world]-280.01190533742425, 71.0, -513.9901780432015)
+[05:12:12 INFO]: <matt18990> dirt chest
+[05:12:18 INFO]: <matt18990> the safest
+[05:13:06 INFO]: <Zortwil> holy fuck
+[05:13:10 INFO]: <Zortwil> was the 41 chicken all the farm
+[05:13:14 INFO]: <matt18990> no lmao
+[05:13:18 INFO]: <Zortwil> oh lmao
+[05:13:20 INFO]: <Zortwil> did you kill some
+[05:13:22 INFO]: <matt18990> killed a bunch of chickens that got out somehow
+[05:13:25 INFO]: <matt18990> cooked em
+[05:13:27 INFO]: <LionMoon_> hello bois
+[05:13:30 INFO]: <Zortwil> someone left the shit open
+[05:13:35 INFO]: <matt18990> ya
+[05:13:44 INFO]: <matt18990> sec
+[05:14:43 INFO]: LionMoon_ lost connection: Disconnected
+[05:14:43 INFO]: LionMoon_ left the game
+[05:14:46 INFO]: UUID of player LionMoon_ is 031ad48a-fe16-355c-93ab-d7f784ab36fd
+[05:14:46 INFO]: LionMoon_[/127.0.0.1:37476] logged in with entity id 190385 at ([world]-292.1746373684801, 71.0, -515.3000000119209)
+[05:15:42 INFO]: <LionMoon_> matt
+[05:15:45 INFO]: <LionMoon_> go to baker
+[05:15:48 INFO]: <LionMoon_> lets get food
+[05:16:03 INFO]: matt18990 lost connection: Timed out
+[05:16:03 INFO]: matt18990 left the game
+[05:16:07 INFO]: LionMoon_ lost connection: Disconnected
+[05:16:07 INFO]: LionMoon_ left the game
+[05:26:56 INFO]: UUID of player xshadows73 is 9fa8340e-046e-3ca1-aae6-dbef82fb83d5
+[05:26:57 INFO]: xshadows73[/127.0.0.1:37680] logged in with entity id 192552 at ([world]-580.4710258521168, 81.0, -92.75254462319852)
+[05:28:25 INFO]: Zortwil lost connection: Disconnected
+[05:28:25 INFO]: Zortwil left the game
+[05:43:09 INFO]: xshadows73 has made the advancement [Sweet Dreams]
+[05:45:08 INFO]: xshadows73 has made the advancement [Acquire Hardware]
+[06:03:00 INFO]: xshadows73 has made the advancement [A Seedy Place]
+[06:15:37 INFO]: UUID of player nuttyfriutcake is be929b50-2f06-33a3-b78b-bffb43efcf53
+[06:15:37 INFO]: nuttyfriutcake[/127.0.0.1:38444] logged in with entity id 199466 at ([world]-146.7498218125677, 58.0, -763.8969714342026)
+[06:19:52 INFO]: <nuttyfriutcake> who dis
+[06:43:56 INFO]: nuttyfriutcake lost connection: Disconnected
+[06:43:56 INFO]: nuttyfriutcake left the game
+[07:04:20 INFO]: UUID of player matt18990 is db33f881-694f-3465-ac7f-128974eb7f31
+[07:04:21 INFO]: matt18990[/127.0.0.1:39270] logged in with entity id 208661 at ([world]-279.30000001192093, 71.0, -513.1723011927403)
+[07:16:54 INFO]: <matt18990> stephen
+[07:17:00 INFO]: <matt18990> do me a favor real quick and log out for 30s
+[07:17:04 INFO]: <matt18990> im tryna sleep
+[07:17:09 INFO]: <matt18990> pls
+[07:29:00 INFO]: matt18990 lost connection: Disconnected
+[07:29:00 INFO]: matt18990 left the game
+[07:34:10 INFO]: UUID of player nuttyfriutcake is be929b50-2f06-33a3-b78b-bffb43efcf53
+[07:34:11 INFO]: nuttyfriutcake[/127.0.0.1:39792] logged in with entity id 216574 at ([world]-149.49397716462718, 58.0, -762.8948682809362)
+[07:35:17 INFO]: UUID of player ofccccccccc is 5ea4f0df-dc23-30b1-a8c6-93067f2efb1b
+[07:35:18 INFO]: ofccccccccc[/127.0.0.1:39828] logged in with entity id 217260 at ([world]-224.5, 68.0, -187.5)
+[07:35:28 INFO]: ofccccccccc lost connection: Disconnected
+[07:35:28 INFO]: ofccccccccc left the game
+[07:35:47 INFO]: UUID of player ofccccccccc is 5ea4f0df-dc23-30b1-a8c6-93067f2efb1b
+[07:35:48 INFO]: ofccccccccc[/127.0.0.1:39830] logged in with entity id 217497 at ([world]-224.5, 68.0, -187.5)
+[07:35:52 INFO]: UUID of player togawe is 7249c8d2-1e63-36d4-8e77-43c5898c59c0
+[07:35:53 INFO]: togawe[/127.0.0.1:39832] logged in with entity id 217595 at ([world]-282.87062717933514, 95.0, -628.9787241700167)
+[07:36:33 INFO]: ofccccccccc lost connection: Disconnected
+[07:36:33 INFO]: ofccccccccc left the game
+[07:37:47 INFO]: UUID of player xovnoc is ed7054a5-b1b3-370f-a2e8-e3f3f6d20cf1
+[07:37:47 INFO]: xovnoc[/127.0.0.1:39838] logged in with entity id 218541 at ([world]-229.5, 68.0, -191.5)
+[07:38:44 INFO]: <togawe> i have 13 diamonds
+[07:39:55 INFO]: UUID of player IEATPOLES is 6e077af3-affb-3827-a55d-eebb1e86b09f
+[07:39:55 INFO]: IEATPOLES[/127.0.0.1:39924] logged in with entity id 219786 at ([world]-229.5, 68.0, -198.5)
+[07:39:59 INFO]: <togawe> nice
+[07:40:18 INFO]: <IEATPOLES> where are the yung hoes at?
+[07:40:29 INFO]: UUID of player ofccccccccc is 5ea4f0df-dc23-30b1-a8c6-93067f2efb1b
+[07:40:29 INFO]: ofccccccccc[/127.0.0.1:39926] logged in with entity id 220157 at ([world]-217.9950787329502, 69.0, -193.74983072268165)
+[07:40:36 INFO]: <togawe> guacamole nibba penis
+[07:40:40 INFO]: <nuttyfriutcake> -357 -836
+[07:41:56 INFO]: <togawe> -284 -522
+[07:44:42 INFO]: ofccccccccc has made the advancement [A Seedy Place]
+[07:44:58 INFO]: UUID of player catsinasippycup is 3ab72777-f4c9-3ac1-8bb8-bd236461513e
+[07:44:58 INFO]: catsinasippycup[/127.0.0.1:40038] logged in with entity id 223971 at ([world]-217.5, 68.0, -186.5)
+[07:45:03 INFO]: UUID of player Quartz3b is 66f1cf80-139c-3b2b-a048-f6c6974c54e0
+[07:45:03 INFO]: Quartz3b[/127.0.0.1:40042] logged in with entity id 224362 at ([world]-229.5, 68.0, -192.5)
+[07:46:30 INFO]: ofccccccccc has made the advancement [Acquire Hardware]
+[07:46:57 INFO]: <IEATPOLES> manlet monkey
+[07:47:08 INFO]: ofccccccccc has made the advancement [Isn't It Iron Pick]
+[07:47:17 INFO]: ofccccccccc has made the advancement [Stone Age]
+[07:47:29 INFO]: <nuttyfriutcake> -145 -763
+[07:49:15 INFO]: xovnoc has made the advancement [Suit Up]
+[07:49:31 INFO]: xovnoc has made the advancement [Isn't It Iron Pick]
+[07:49:56 INFO]: xovnoc has made the advancement [Stone Age]
+[07:51:32 INFO]: IEATPOLES has made the advancement [Stone Age]
+[07:51:43 INFO]: IEATPOLES has made the advancement [Isn't It Iron Pick]
+[07:54:19 INFO]: Quartz3b has made the advancement [Isn't It Iron Pick]
+[07:54:36 INFO]: catsinasippycup has made the advancement [Getting an Upgrade]
+[07:54:46 INFO]: catsinasippycup has made the advancement [Acquire Hardware]
+[07:54:53 INFO]: catsinasippycup has made the advancement [Stone Age]
+[07:55:34 INFO]: ofccccccccc has made the advancement [Diamonds!]
+[07:56:37 INFO]: IEATPOLES has made the advancement [Diamonds!]
+[07:56:40 INFO]: IEATPOLES was slain by xovnoc
+[07:56:42 INFO]: xovnoc has made the advancement [Diamonds!]
+[07:56:48 INFO]: <togawe> LOL
+[07:57:52 INFO]: Quartz3b has made the advancement [Monster Hunter]
+[07:57:57 INFO]: catsinasippycup has made the advancement [Isn't It Iron Pick]
+[07:58:02 INFO]: nuttyfriutcake has made the advancement [Getting an Upgrade]
+[07:58:47 INFO]: Quartz3b has made the advancement [Stone Age]
+[08:03:03 INFO]: xovnoc has made the advancement [Acquire Hardware]
+[08:07:26 INFO]: togawe issued server command: /gamemode c
+[08:07:31 INFO]: togawe issued server command: /op togawe
+[08:09:38 INFO]: xovnoc has made the advancement [Monster Hunter]
+[08:10:56 INFO]: <ofccccccccc> -145 -763
+[08:10:59 INFO]: xovnoc was shot by Skeleton
+[08:11:04 INFO]: catsinasippycup lost connection: Disconnected
+[08:11:04 INFO]: catsinasippycup left the game
+[08:12:53 INFO]: nuttyfriutcake issued server command: /me lmao
+[08:12:53 INFO]: * nuttyfriutcake lmao
+[08:15:45 INFO]: Quartz3b has made the advancement [Sweet Dreams]
+[08:16:08 INFO]: ofccccccccc has made the advancement [Monster Hunter]
+[08:19:43 INFO]: ofccccccccc has made the advancement [Sweet Dreams]
+[08:21:24 INFO]: Quartz3b has made the advancement [Acquire Hardware]
+[08:24:02 INFO]: Quartz3b has made the advancement [Suit Up]
+[08:26:32 INFO]: UUID of player catsinasippycup is 3ab72777-f4c9-3ac1-8bb8-bd236461513e
+[08:26:32 INFO]: catsinasippycup[/127.0.0.1:40688] logged in with entity id 262044 at ([world]-155.4996673855487, 63.0, -788.2901511946235)
+[08:26:53 INFO]: catsinasippycup lost connection: Disconnected
+[08:26:53 INFO]: catsinasippycup left the game
+[08:30:56 INFO]: togawe has made the advancement [Enchanter]
+[08:31:13 INFO]: Quartz3b has made the advancement [Hot Stuff]
+[08:31:53 INFO]: UUID of player xovnoc is ed7054a5-b1b3-370f-a2e8-e3f3f6d20cf1
+[08:31:53 INFO]: xovnoc lost connection: You logged in from another location
+[08:31:53 INFO]: xovnoc left the game
+[08:31:53 INFO]: xovnoc[/127.0.0.1:40804] logged in with entity id 265967 at ([world]-99.30555481902853, 21.0, -658.0742274374668)
+[08:31:53 WARN]: handleDisconnection() called twice
+[08:33:47 INFO]: IEATPOLES fell from a high place
+[08:34:17 INFO]: UUID of player catsinasippycup is 3ab72777-f4c9-3ac1-8bb8-bd236461513e
+[08:34:17 INFO]: catsinasippycup[/127.0.0.1:40896] logged in with entity id 267724 at ([world]-147.21417732790263, 63.0, -768.2873692416273)
+[08:34:43 INFO]: togawe lost connection: Disconnected
+[08:34:43 INFO]: togawe left the game
+[08:36:36 INFO]: <ofccccccccc> -145 -763
+[08:42:22 INFO]: catsinasippycup has made the advancement [Monster Hunter]
+[08:43:45 INFO]: nuttyfriutcake burned to death
+[08:44:44 INFO]: nuttyfriutcake has made the advancement [Ice Bucket Challenge]
+[08:47:36 INFO]: IEATPOLES fell from a high place
+[08:51:05 INFO]: xovnoc has made the advancement [A Seedy Place]
+[08:51:57 INFO]: Quartz3b has made the advancement [We Need to Go Deeper]
+[08:51:57 INFO]: nuttyfriutcake has made the advancement [We Need to Go Deeper]
+[08:55:29 INFO]: xovnoc has made the advancement [Sweet Dreams]
+[08:55:48 INFO]: IEATPOLES has made the advancement [Sweet Dreams]
+[08:58:38 INFO]: ofccccccccc has made the advancement [We Need to Go Deeper]
+[08:59:44 INFO]: <nuttyfriutcake> -145 -763
+[09:02:55 INFO]: ofccccccccc has made the advancement [Suit Up]
+[09:08:35 INFO]: IEATPOLES has made the advancement [Acquire Hardware]
+[09:08:51 INFO]: IEATPOLES has made the advancement [Suit Up]
+[09:11:34 INFO]: nuttyfriutcake has made the advancement [Best Friends Forever]
+[09:15:16 INFO]: catsinasippycup has made the advancement [Sweet Dreams]
+[09:23:38 INFO]: xovnoc fell from a high place
+[09:27:40 INFO]: nuttyfriutcake has made the advancement [Not Today, Thank You]
+[09:31:10 INFO]: xovnoc has made the advancement [The Parrots and the Bats]
+[09:32:41 INFO]: catsinasippycup has made the advancement [Suit Up]
+[09:34:00 INFO]: nuttyfriutcake has made the advancement [The Parrots and the Bats]
+[09:39:46 INFO]: <IEATPOLES> e.e
+[09:54:16 INFO]: catsinasippycup has made the advancement [Fishy Business]
+[09:56:20 INFO]: IEATPOLES fell from a high place
+[09:57:37 INFO]: ofccccccccc issued server command: /he;[
+[09:57:40 INFO]: ofccccccccc issued server command: /help
+[09:57:46 INFO]: ofccccccccc issued server command: /plugins
+[09:57:52 INFO]: ofccccccccc issued server command: /help 2
+[09:58:05 INFO]: ofccccccccc issued server command: /tell IEATPOLES ur gay lmao
+[09:58:23 INFO]: xovnoc has made the advancement [We Need to Go Deeper]
+[09:59:20 INFO]: xovnoc has made the advancement [Hot Stuff]
+[09:59:55 INFO]: <nuttyfriutcake> -145 -763
+[10:02:15 INFO]: IEATPOLES fell from a high place
+[10:02:27 INFO]: IEATPOLES lost connection: Disconnected
+[10:02:27 INFO]: IEATPOLES left the game
+[10:06:45 INFO]: <catsinasippycup> alex
+[10:06:48 INFO]: <catsinasippycup> your mic is broken
+[10:28:57 WARN]: Quartz3b moved wrongly!
+[10:40:47 INFO]: UUID of player Ninjustinja is 6a6fd91b-fc5f-3a99-b359-b914cfda236c
+[10:40:48 INFO]: Ninjustinja[/127.0.0.1:42976] logged in with entity id 361242 at ([world]-280.2787201407161, 71.0, -513.4657533047377)
+[10:40:58 INFO]: <Ninjustinja> oh shit lmao
+[10:41:04 INFO]: <nuttyfriutcake> whaddup
+[10:43:49 INFO]: <Ninjustinja> where yall at?
+[10:43:57 INFO]: <ofccccccccc> -145 -763
+[10:47:34 INFO]: <Ninjustinja> you guys making a xp farm?
+[10:47:39 INFO]: <nuttyfriutcake> nah
+[10:48:21 INFO]: <ofccccccccc> who are you
+[10:48:27 INFO]: <ofccccccccc> you have 3 seconds to get out
+[10:48:30 INFO]: <Ninjustinja> justin
+[10:48:31 INFO]: <ofccccccccc> 2
+[10:48:32 INFO]: <ofccccccccc> 1
+[10:48:33 INFO]: <ofccccccccc> thanks
+[10:48:45 INFO]: <nuttyfriutcake> sorry he treasures his privacy
+[10:48:51 INFO]: <Ninjustinja> who are you?
+[10:49:40 INFO]: <xovnoc> dont look at that its hideous
+[10:49:54 INFO]: <Ninjustinja> what is it lol
+[10:50:12 INFO]: <xovnoc> egg farm but it looks horrible lol
+[10:50:17 INFO]: catsinasippycup lost connection: Disconnected
+[10:50:17 INFO]: catsinasippycup left the game
+[10:50:23 INFO]: <Quartz3b> the avrage age of this server is 12
+[10:50:31 INFO]: <ofccccccccc> avrage agE
+[10:52:08 INFO]: <Ninjustinja> by the way where's my dog?
+[10:52:16 INFO]: <nuttyfriutcake> idk
+[10:52:20 INFO]: <nuttyfriutcake> we've been here the whole time
+[10:56:47 INFO]: ofccccccccc lost connection: Disconnected
+[10:56:47 INFO]: ofccccccccc left the game
+[10:57:23 INFO]: UUID of player IEATPOLES is 6e077af3-affb-3827-a55d-eebb1e86b09f
+[10:57:24 INFO]: IEATPOLES[/127.0.0.1:43234] logged in with entity id 372733 at ([world]-231.5, 69.0, -195.5)
+[10:57:39 INFO]: IEATPOLES lost connection: Disconnected
+[10:57:39 INFO]: IEATPOLES left the game
+[10:58:09 INFO]: UUID of player ofccccccccc is 5ea4f0df-dc23-30b1-a8c6-93067f2efb1b
+[10:58:09 INFO]: ofccccccccc[/127.0.0.1:43324] logged in with entity id 373301 at ([world]-156.50535422333203, 67.0, -767.8625000119209)
+[10:59:58 INFO]: Quartz3b has made the advancement [Diamonds!]
+[11:04:52 INFO]: Ninjustinja issued server command: /give ninjustinja minecraft.blaze_rods
+[11:07:38 INFO]: nuttyfriutcake lost connection: Disconnected
+[11:07:38 INFO]: nuttyfriutcake left the game
+[11:17:05 INFO]: <ofccccccccc> do you have ink
+[11:17:18 INFO]: <Ninjustinja> not reallyt
+[11:17:21 INFO]: <ofccccccccc> 1 ink sac
+[11:17:40 INFO]: <Ninjustinja> i dont think ive been in the ocean yet
+[11:17:43 INFO]: <ofccccccccc> fuk
+[11:22:08 INFO]: <ofccccccccc> sus ass gtfo
+[11:22:21 INFO]: <ofccccccccc> kill the wolves
+[11:22:22 INFO]: <ofccccccccc> u wont
+[11:22:24 INFO]: <ofccccccccc> no balls
+[11:22:42 INFO]: <Ninjustinja> i wont because somebody killed mine
+[11:22:49 INFO]: <ofccccccccc> fbm
+[11:24:09 INFO]: ofccccccccc lost connection: Disconnected
+[11:24:09 INFO]: ofccccccccc left the game
+[11:34:50 INFO]: xshadows73 lost connection: Disconnected
+[11:34:50 INFO]: xshadows73 left the game
+[11:56:44 INFO]: UUID of player Zortwil is c94597c9-f9a6-3828-80f3-38dbd66e121c
+[11:56:45 INFO]: Zortwil[/127.0.0.1:44208] logged in with entity id 397480 at ([world]-275.23750001192093, 71.0, -512.4563635582577)
+[11:58:15 INFO]: Ninjustinja lost connection: Disconnected
+[11:58:15 INFO]: Ninjustinja left the game
+[11:58:18 INFO]: Zortwil lost connection: Disconnected
+[11:58:18 INFO]: Zortwil left the game
+[12:11:17 INFO]: xovnoc tried to swim in lava
+[12:17:58 INFO]: Quartz3b fell from a high place
+[12:20:15 INFO]: xovnoc lost connection: Disconnected
+[12:20:15 INFO]: xovnoc left the game
+[12:23:42 INFO]: Quartz3b lost connection: Disconnected
+[12:23:42 INFO]: Quartz3b left the game
+[12:27:55 INFO]: UUID of player Quartz3b is 66f1cf80-139c-3b2b-a048-f6c6974c54e0
+[12:27:55 INFO]: Quartz3b[/127.0.0.1:44762] logged in with entity id 405495 at ([world]-148.76862291796405, 103.0, -754.3000000119209)
+[12:33:54 INFO]: Quartz3b lost connection: Disconnected
+[12:33:54 INFO]: Quartz3b left the game
+[12:34:56 INFO]: UUID of player IEATPOLES is 6e077af3-affb-3827-a55d-eebb1e86b09f
+[12:34:56 INFO]: IEATPOLES[/127.0.0.1:44966] logged in with entity id 406328 at ([world]-228.50952653970631, 69.0, -196.69999998807907)
+[12:46:39 INFO]: IEATPOLES fell from a high place
+[13:03:12 INFO]: IEATPOLES lost connection: Disconnected
+[13:03:12 INFO]: IEATPOLES left the game
+[20:53:17 INFO]: UUID of player ofccccccccc is 5ea4f0df-dc23-30b1-a8c6-93067f2efb1b
+[20:53:17 INFO]: ofccccccccc[/127.0.0.1:53320] logged in with entity id 413175 at ([world]-100.9741453411124, 72.0, -670.5138694913475)
+[20:53:32 INFO]: ofccccccccc lost connection: Disconnected
+[20:53:32 INFO]: ofccccccccc left the game
+[21:47:34 INFO]: UUID of player xovnoc is ed7054a5-b1b3-370f-a2e8-e3f3f6d20cf1
+[21:47:35 INFO]: xovnoc[/127.0.0.1:54318] logged in with entity id 413420 at ([world]-156.26662239139836, 103.0, -761.2157997394016)
+[21:59:17 INFO]: xovnoc lost connection: Disconnected
+[21:59:17 INFO]: xovnoc left the game
+[22:10:57 INFO]: UUID of player xshadows73 is 9fa8340e-046e-3ca1-aae6-dbef82fb83d5
+[22:10:57 INFO]: xshadows73[/127.0.0.1:54732] logged in with entity id 416242 at ([world]-576.9839847711302, 63.5, -77.30007618891602)
+[22:29:15 INFO]: UUID of player ofccccccccc is 5ea4f0df-dc23-30b1-a8c6-93067f2efb1b
+[22:29:15 INFO]: ofccccccccc[/127.0.0.1:55004] logged in with entity id 420779 at ([world]-99.71516590220125, 72.0, -670.7032524879247)
+[22:29:21 INFO]: <ofccccccccc> who dis
+[22:29:33 INFO]: <xshadows73> will kriss
+[22:29:38 INFO]: <ofccccccccc> do you go to slo
+[22:29:48 INFO]: <xshadows73> mhmm
+[22:29:53 INFO]: <ofccccccccc> so u kno randy then
+[22:29:56 INFO]: <xshadows73> ya
+[22:30:04 INFO]: <ofccccccccc> ofc
+[22:30:22 INFO]: <ofccccccccc> do u live in the house with derick and matt
+[22:30:31 INFO]: <xshadows73> naw
+[22:30:42 INFO]: <xshadows73> im a friend of them tho
+[22:31:41 INFO]: <ofccccccccc> ofc
+[22:31:59 INFO]: <ofccccccccc> o wait i meant in game
+[22:32:02 INFO]: <ofccccccccc> not in their apartment
+[22:32:12 INFO]: <xshadows73> naw im in the middle of no where
+[22:32:18 INFO]: <ofccccccccc> do u have ink
+[22:32:21 INFO]: <xshadows73> nope
+[22:32:25 INFO]: <ofccccccccc> i need 1 ink
+[22:32:33 INFO]: <ofccccccccc> ill give u something for ink
+[22:32:58 INFO]: <xshadows73> i can get some?
+[22:33:05 INFO]: <ofccccccccc> if u find some ill cop
+[22:33:24 INFO]: <ofccccccccc> desperately need 1 more
+[22:38:23 INFO]: <ofccccccccc> do u have a bed
+[22:38:38 INFO]: <xshadows73> ye im in
+[22:38:48 INFO]: <ofccccccccc> 1s
+[22:41:08 INFO]: <ofccccccccc> yo do you know how to tame wolves
+[22:41:20 INFO]: <ofccccccccc> is it a bone
+[22:41:20 INFO]: <xshadows73> bones
+[22:41:56 INFO]: <ofccccccccc> fuck it's already gone
+[22:42:05 INFO]: ofccccccccc has made the advancement [Best Friends Forever]
+[22:42:07 INFO]: <ofccccccccc> found it
+[22:43:37 INFO]: <ofccccccccc> are you an engineer
+[22:46:42 INFO]: <xshadows73> nope
+[22:53:16 INFO]: <ofccccccccc> sleep?
+[23:16:31 INFO]: UUID of player Ben_Swolo111 is 2beaf46f-dc12-39c2-a274-58ef1421af7e
+[23:16:32 INFO]: Ben_Swolo111[/127.0.0.1:55798] logged in with entity id 435193 at ([world]-218.5, 67.0, -196.5)
+[23:18:34 INFO]: xshadows73 lost connection: Disconnected
+[23:18:34 INFO]: xshadows73 left the game
+[23:24:05 INFO]: Ben_Swolo111 has made the advancement [Stone Age]
+[23:24:13 INFO]: <ofccccccccc> damn
+[23:24:21 INFO]: <ofccccccccc> ur making progress
+[23:24:28 INFO]: <Ben_Swolo111> movin up in society
+[23:24:47 INFO]: Ben_Swolo111 has made the advancement [Getting an Upgrade]
+[23:27:45 INFO]: Ben_Swolo111 has made the advancement [Acquire Hardware]
+[23:28:10 INFO]: ofccccccccc has made the advancement [Take Aim]
+[23:36:52 INFO]: Ben_Swolo111 tried to swim in lava
+[23:37:09 INFO]: <ofccccccccc> movin up in society i see
+[23:37:30 INFO]: <Ben_Swolo111> I was about to starve to death
+[23:37:34 INFO]: <ofccccccccc> smart
+[23:42:51 INFO]: <ofccccccccc> -123 -730
+[23:44:10 INFO]: <Ben_Swolo111> i'll head there next time I play
+[23:44:17 INFO]: <Ben_Swolo111> i have class soon
+[23:44:20 INFO]: <ofccccccccc> ofc
+[23:44:26 INFO]: <ofccccccccc> i was writing it for myself
+[23:44:36 INFO]: <Ben_Swolo111> o
+[23:44:40 INFO]: <ofccccccccc> u can come
+[23:44:52 INFO]: <ofccccccccc> i just needed to remember
+[23:46:12 INFO]: Ben_Swolo111 lost connection: Disconnected
+[23:46:12 INFO]: Ben_Swolo111 left the game
+[23:59:02 INFO]: ofccccccccc lost connection: Disconnected
+[23:59:02 INFO]: ofccccccccc left the game
+[00:13:37 INFO]: UUID of player Quartz3b is 66f1cf80-139c-3b2b-a048-f6c6974c54e0
+[00:13:37 INFO]: Quartz3b[/127.0.0.1:56798] logged in with entity id 444028 at ([world]-144.08130786925233, 71.0, -752.3000000119209)
+[00:31:50 INFO]: Quartz3b has made the advancement [A Seedy Place]
+[00:34:07 INFO]: Quartz3b burned to death
+[00:41:38 INFO]: Quartz3b lost connection: Disconnected
+[00:41:38 INFO]: Quartz3b left the game
+[01:04:22 INFO]: UUID of player xshadows73 is 9fa8340e-046e-3ca1-aae6-dbef82fb83d5
+[01:04:23 INFO]: xshadows73[/127.0.0.1:57630] logged in with entity id 447447 at ([world]-566.9875000119209, 99.0, -78.56917807272367)
+[01:09:35 INFO]: UUID of player xovnoc is ed7054a5-b1b3-370f-a2e8-e3f3f6d20cf1
+[01:09:36 INFO]: xovnoc[/127.0.0.1:57722] logged in with entity id 448173 at ([world]-98.0815492432443, 13.0, -644.6812506346889)
+[01:14:07 INFO]: UUID of player YungReek is 4fb1254a-ecf4-3bd1-9744-3a5b4f50cc21
+[01:14:08 INFO]: YungReek[/127.0.0.1:57830] logged in with entity id 450047 at ([world]-231.5, 69.0, -201.5)
+[01:15:58 INFO]: xovnoc was shot by Skeleton
+[01:16:58 INFO]: YungReek fell from a high place
+[01:23:59 INFO]: YungReek has made the advancement [Stone Age]
+[01:24:18 INFO]: YungReek has made the advancement [Getting an Upgrade]
+[01:41:14 INFO]: YungReek has made the advancement [Acquire Hardware]
+[01:41:31 INFO]: YungReek has made the advancement [Suit Up]
+[01:47:31 INFO]: YungReek has made the advancement [Isn't It Iron Pick]
+[01:52:06 INFO]: YungReek has made the advancement [Sweet Dreams]
+[02:04:16 INFO]: YungReek has made the advancement [We Need to Go Deeper]
+[02:09:31 INFO]: xshadows73 lost connection: Timed out
+[02:09:31 INFO]: xshadows73 left the game
+[02:16:43 INFO]: xovnoc has made the advancement [Fishy Business]
+[02:22:12 INFO]: xovnoc lost connection: Disconnected
+[02:22:12 INFO]: xovnoc left the game
+[02:25:53 INFO]: YungReek has made the advancement [Monster Hunter]
+[02:34:34 INFO]: UUID of player xshadows73 is 9fa8340e-046e-3ca1-aae6-dbef82fb83d5
+[02:34:35 INFO]: xshadows73[/127.0.0.1:59210] logged in with entity id 478221 at ([world]-569.3894287537522, 85.0, -78.89824531658361)
+[02:36:38 INFO]: UUID of player nuttyfriutcake is be929b50-2f06-33a3-b78b-bffb43efcf53
+[02:36:38 INFO]: nuttyfriutcake[/127.0.0.1:59214] logged in with entity id 478701 at ([world]-149.2691040207269, 77.0, -758.5802639479977)
+[02:36:57 INFO]: <nuttyfriutcake> wtf aj
+[02:36:59 INFO]: <nuttyfriutcake> get on
+[02:40:51 INFO]: nuttyfriutcake lost connection: Disconnected
+[02:40:51 INFO]: nuttyfriutcake left the game
+[02:40:55 INFO]: UUID of player nuttyfriutcake is be929b50-2f06-33a3-b78b-bffb43efcf53
+[02:40:55 INFO]: nuttyfriutcake[/127.0.0.1:59304] logged in with entity id 480479 at ([world]-81.50515404287941, 63.0, -719.4889928923669)
+[02:45:15 INFO]: YungReek lost connection: Disconnected
+[02:45:15 INFO]: YungReek left the game
+[02:47:42 INFO]: UUID of player ofccccccccc is 5ea4f0df-dc23-30b1-a8c6-93067f2efb1b
+[02:47:43 INFO]: ofccccccccc[/127.0.0.1:59450] logged in with entity id 482815 at ([world_nether]-96.43016728807318, 62.0, -155.95623615426513)
+[02:50:19 INFO]: <nuttyfriutcake> -28 -52
+[02:52:31 INFO]: ofccccccccc issued server command: /help
+[02:52:44 INFO]: ofccccccccc issued server command: /teleport
+[02:55:39 INFO]: UUID of player YungReek is 4fb1254a-ecf4-3bd1-9744-3a5b4f50cc21
+[02:55:39 INFO]: YungReek[/127.0.0.1:59576] logged in with entity id 487797 at ([world]-100.38782093525288, 64.0, -731.4878930165092)
+[02:58:07 INFO]: YungReek lost connection: Disconnected
+[02:58:07 INFO]: YungReek left the game
+[03:11:41 INFO]: UUID of player YungReek is 4fb1254a-ecf4-3bd1-9744-3a5b4f50cc21
+[03:11:41 INFO]: YungReek[/127.0.0.1:59872] logged in with entity id 505469 at ([world]-93.92432833373259, 66.0, -724.6814981103842)
+[03:29:51 INFO]: ofccccccccc has made the advancement [Not Today, Thank You]
+[03:36:02 INFO]: YungReek has made the advancement [A Seedy Place]
+[03:41:04 INFO]: YungReek has made the advancement [Best Friends Forever]
+[03:46:13 INFO]: <ofccccccccc> shadows
+[03:46:26 INFO]: <xshadows73> hmm?
+[03:46:28 INFO]: <ofccccccccc> sleep
+[03:46:30 INFO]: <ofccccccccc> ?
+[03:46:41 INFO]: xshadows73 lost connection: Disconnected
+[03:46:41 INFO]: xshadows73 left the game
+[03:47:05 INFO]: UUID of player togawe is 7249c8d2-1e63-36d4-8e77-43c5898c59c0
+[03:47:06 INFO]: togawe[/127.0.0.1:60564] logged in with entity id 546823 at ([world]-282.4742964712938, 95.0, -629.1957255091127)
+[03:47:10 INFO]: UUID of player xshadows73 is 9fa8340e-046e-3ca1-aae6-dbef82fb83d5
+[03:47:11 INFO]: xshadows73[/127.0.0.1:60568] logged in with entity id 547238 at ([world]-567.1866266440662, 23.0, -126.65368175651716)
+[03:47:57 INFO]: <togawe> -120 -700
+[03:48:21 INFO]: xshadows73 lost connection: Timed out
+[03:48:21 INFO]: xshadows73 left the game
+[03:56:05 INFO]: UUID of player xshadows73 is 9fa8340e-046e-3ca1-aae6-dbef82fb83d5
+[03:56:05 INFO]: xshadows73[/127.0.0.1:60696] logged in with entity id 554138 at ([world]-562.8051658044477, 23.0, -127.48066278348713)
+[04:03:09 WARN]: Horse moved wrongly!
+[04:03:09 WARN]: Horse moved wrongly!
+[04:03:41 WARN]: Horse moved wrongly!
+[04:03:41 WARN]: Horse moved wrongly!
+[04:05:33 INFO]: xshadows73 has made the advancement [Isn't It Iron Pick]
+[04:05:53 INFO]: xshadows73 has made the advancement [Suit Up]
+[04:09:47 INFO]: <nuttyfriutcake> 214 -1842
+[04:10:00 WARN]: Horse moved wrongly!
+[04:10:00 WARN]: Horse moved wrongly!
+[04:10:00 WARN]: Horse moved wrongly!
+[04:10:00 WARN]: Horse moved wrongly!
+[04:10:00 WARN]: Horse moved wrongly!
+[04:10:00 WARN]: Horse moved wrongly!
+[04:10:00 WARN]: Horse moved wrongly!
+[04:10:00 WARN]: Horse moved wrongly!
+[04:10:00 WARN]: Horse moved wrongly!
+[04:10:00 WARN]: Horse moved wrongly!
+[04:10:00 WARN]: Horse moved wrongly!
+[04:10:00 WARN]: Horse moved wrongly!
+[04:10:00 WARN]: Horse moved wrongly!
+[04:10:00 WARN]: Horse moved wrongly!
+[04:10:00 WARN]: Horse moved wrongly!
+[04:10:00 WARN]: Horse moved wrongly!
+[04:10:01 WARN]: Horse moved wrongly!
+[04:10:01 WARN]: Horse moved wrongly!
+[04:11:32 WARN]: Horse moved wrongly!
+[04:11:32 WARN]: Horse moved wrongly!
+[04:11:42 INFO]: <ofccccccccc> -100 -700
+[04:13:30 WARN]: Horse moved wrongly!
+[04:13:30 WARN]: Horse moved wrongly!
+[04:16:57 INFO]: ofccccccccc has made the advancement [The Parrots and the Bats]
+[04:18:14 INFO]: xshadows73 lost connection: Disconnected
+[04:18:14 INFO]: xshadows73 left the game
+[04:20:25 INFO]: YungReek lost connection: Disconnected
+[04:20:25 INFO]: YungReek left the game
+[04:21:06 INFO]: UUID of player xovnoc is ed7054a5-b1b3-370f-a2e8-e3f3f6d20cf1
+[04:21:07 INFO]: xovnoc[/127.0.0.1:33112] logged in with entity id 588240 at ([world]-126.15485542142528, 68.0, -822.5396301985552)
+[04:22:02 WARN]: Horse moved wrongly!
+[04:22:02 WARN]: Horse moved wrongly!
+[04:22:02 WARN]: Horse moved wrongly!
+[04:22:02 WARN]: Horse moved wrongly!
+[04:22:02 WARN]: Horse moved wrongly!
+[04:22:02 WARN]: Horse moved wrongly!
+[04:22:02 WARN]: Horse moved wrongly!
+[04:22:02 WARN]: Horse moved wrongly!
+[04:22:02 WARN]: Horse moved wrongly!
+[04:22:02 WARN]: Horse moved wrongly!
+[04:22:03 WARN]: Horse moved wrongly!
+[04:22:03 WARN]: Horse moved wrongly!
+[04:22:03 WARN]: Horse moved wrongly!
+[04:22:03 WARN]: Horse moved wrongly!
+[04:22:03 WARN]: Horse moved wrongly!
+[04:22:03 WARN]: Horse moved wrongly!
+[04:23:36 INFO]: UUID of player YungReek is 4fb1254a-ecf4-3bd1-9744-3a5b4f50cc21
+[04:23:36 INFO]: YungReek[/127.0.0.1:33116] logged in with entity id 589972 at ([world]-144.36364986790272, 63.0, -768.392088453335)
+[04:28:47 WARN]: Horse moved wrongly!
+[04:28:47 WARN]: Horse moved wrongly!
+[04:29:37 INFO]: UUID of player catsinasippycup is 3ab72777-f4c9-3ac1-8bb8-bd236461513e
+[04:29:37 INFO]: catsinasippycup[/127.0.0.1:33256] logged in with entity id 595881 at ([world]-133.5337756403842, 66.0, -748.1919184053996)
+[04:31:14 INFO]: ofccccccccc lost connection: Disconnected
+[04:31:14 INFO]: ofccccccccc left the game
+[04:31:48 WARN]: Horse moved wrongly!
+[04:31:48 WARN]: Horse moved wrongly!
+[04:32:19 INFO]: UUID of player ofccccccccc is 5ea4f0df-dc23-30b1-a8c6-93067f2efb1b
+[04:32:19 INFO]: ofccccccccc[/127.0.0.1:33384] logged in with entity id 598003 at ([world]-148.69999998807907, 63.0, -764.7371655835067)
+[04:36:17 WARN]: Horse moved wrongly!
+[04:36:18 WARN]: Horse moved wrongly!
+[04:36:19 WARN]: Horse moved wrongly!
+[04:36:19 WARN]: Horse moved wrongly!
+[04:36:19 WARN]: Horse moved wrongly!
+[04:36:19 WARN]: Horse moved wrongly!
+[04:36:19 WARN]: Horse moved wrongly!
+[04:36:19 WARN]: Horse moved wrongly!
+[04:36:19 WARN]: Horse moved wrongly!
+[04:41:01 INFO]: YungReek has made the advancement [Not Today, Thank You]
+[04:44:03 INFO]: togawe has completed the challenge [Return to Sender]
+[04:56:55 INFO]: nuttyfriutcake fell from a high place
+[05:04:37 INFO]: catsinasippycup lost connection: Disconnected
+[05:04:37 INFO]: catsinasippycup left the game
+[05:07:34 INFO]: togawe was slain by Enderman
+[05:13:46 INFO]: ofccccccccc has made the advancement [Enchanter]
+[05:22:34 INFO]: togawe lost connection: Disconnected
+[05:22:34 INFO]: togawe left the game
+[05:22:38 INFO]: UUID of player togawe is 7249c8d2-1e63-36d4-8e77-43c5898c59c0
+[05:22:38 INFO]: togawe[/127.0.0.1:34554] logged in with entity id 631651 at ([world]-253.52400548028282, 97.0, -666.0588607954727)
+[05:26:08 INFO]: togawe fell from a high place
+[05:29:28 INFO]: ofccccccccc lost connection: Disconnected
+[05:29:28 INFO]: ofccccccccc left the game
+[05:34:05 INFO]: <nuttyfriutcake> -94 -769
+[05:36:12 INFO]: UUID of player Zortwil is c94597c9-f9a6-3828-80f3-38dbd66e121c
+[05:36:13 INFO]: Zortwil[/127.0.0.1:34904] logged in with entity id 641453 at ([world]-289.53355576749766, 71.0, -511.02170332836835)
+[05:38:59 INFO]: togawe fell from a high place
+[05:48:08 INFO]: YungReek has made the advancement [The Parrots and the Bats]
+[05:49:03 INFO]: togawe fell from a high place
+[05:49:09 INFO]: <togawe> fuck
+[05:56:27 INFO]: togawe lost connection: Disconnected
+[05:56:27 INFO]: togawe left the game
+[06:06:14 WARN]: Zortwil was kicked for floating too long!
+[06:06:14 INFO]: Zortwil lost connection: Flying is not enabled on this server
+[06:06:14 INFO]: Zortwil left the game
+[06:06:14 WARN]: handleDisconnection() called twice
+[06:06:40 INFO]: UUID of player Zortwil is c94597c9-f9a6-3828-80f3-38dbd66e121c
+[06:06:41 INFO]: Zortwil[/127.0.0.1:35678] logged in with entity id 660570 at ([world]-298.8415951835948, 55.79250481487933, -530.5)
+[06:22:39 INFO]: Zortwil lost connection: Disconnected
+[06:22:39 INFO]: Zortwil left the game
+[06:23:36 INFO]: xovnoc has made the advancement [Not Today, Thank You]
+[06:24:29 INFO]: UUID of player Zortwil is c94597c9-f9a6-3828-80f3-38dbd66e121c
+[06:24:30 INFO]: Zortwil[/127.0.0.1:36058] logged in with entity id 669596 at ([world]-383.5790187697038, 28.0, -518.8507278550775)
+[06:26:50 INFO]: xovnoc has made the advancement [Best Friends Forever]
+[06:36:39 INFO]: UUID of player Kkevlar is 273c5da9-5af5-33da-896c-6f3708a12d7b
+[06:36:39 INFO]: Kkevlar[/127.0.0.1:36312] logged in with entity id 677410 at ([world]-275.3006768028174, 71.0, -512.3000000119209)
+[06:37:15 INFO]: xovnoc lost connection: Disconnected
+[06:37:15 INFO]: xovnoc left the game
+[06:37:25 INFO]: <Kkevlar> can i get a fucken nihao
+[06:45:34 INFO]: Zortwil lost connection: Disconnected
+[06:45:34 INFO]: Zortwil left the game
+[06:48:20 INFO]: Kkevlar lost connection: Disconnected
+[06:48:20 INFO]: Kkevlar left the game
+[06:52:16 INFO]: UUID of player Zortwil is c94597c9-f9a6-3828-80f3-38dbd66e121c
+[06:52:17 INFO]: Zortwil[/127.0.0.1:36702] logged in with entity id 681753 at ([world]-227.95187936056828, 70.0, -519.3074898363557)
+[06:52:32 INFO]: Stopping server
+[06:52:32 INFO]: Saving players
+[06:52:32 INFO]: YungReek lost connection: Server closed
+[06:52:32 INFO]: YungReek left the game
+[06:52:32 INFO]: nuttyfriutcake lost connection: Server closed
+[06:52:32 INFO]: nuttyfriutcake left the game
+[06:52:32 INFO]: Zortwil lost connection: Server closed
+[06:52:32 INFO]: Zortwil left the game
+[06:52:32 WARN]: handleDisconnection() called twice
+[06:52:32 WARN]: handleDisconnection() called twice
+[06:52:32 WARN]: handleDisconnection() called twice
+[06:52:32 INFO]: Saving worlds
+[06:52:32 INFO]: Saving chunks for level 'world'/minecraft:overworld
+[06:52:32 INFO]: Saving chunks for level 'world_nether'/minecraft:the_nether
+[06:52:32 INFO]: Saving chunks for level 'world_the_end'/minecraft:the_end
+connect_to 127.0.0.1 port 25565: failed.
+connect_to 127.0.0.1 port 25565: failed.
+connect_to 127.0.0.1 port 25565: failed.
+connect_to 127.0.0.1 port 25565: failed.
+connect_to 127.0.0.1 port 25565: failed.
+connect_to 127.0.0.1 port 25565: failed.
+connect_to 127.0.0.1 port 25565: failed.
+connect_to 127.0.0.1 port 25565: failed.
+connect_to 127.0.0.1 port 25565: failed.
+connect_to 127.0.0.1 port 25565: failed.
+connect_to 127.0.0.1 port 25565: failed.
+connect_to 127.0.0.1 port 25565: failed.
+connect_to 127.0.0.1 port 25565: failed.
+connect_to 127.0.0.1 port 25565: failed.
+connect_to 127.0.0.1 port 25565: failed.
+connect_to 127.0.0.1 port 25565: failed.
+connect_to 127.0.0.1 port 25565: failed.
+connect_to 127.0.0.1 port 25565: failed.
+connect_to 127.0.0.1 port 25565: failed.
+connect_to 127.0.0.1 port 25565: failed.
+connect_to 127.0.0.1 port 25565: failed.
+connect_to 127.0.0.1 port 25565: failed.
+connect_to 127.0.0.1 port 25565: failed.
+connect_to 127.0.0.1 port 25565: failed.
+connect_to 127.0.0.1 port 25565: failed.
+connect_to 127.0.0.1 port 25565: failed.
+connect_to 127.0.0.1 port 25565: failed.
+connect_to 127.0.0.1 port 25565: failed.
+connect_to 127.0.0.1 port 25565: failed.
+connect_to 127.0.0.1 port 25565: failed.
+connect_to 127.0.0.1 port 25565: failed.
+connect_to 127.0.0.1 port 25565: failed.
+connect_to 127.0.0.1 port 25565: failed.
+connect_to 127.0.0.1 port 25565: failed.
+connect_to 127.0.0.1 port 25565: failed.
+connect_to 127.0.0.1 port 25565: failed.
+connect_to 127.0.0.1 port 25565: failed.
+connect_to 127.0.0.1 port 25565: failed.
+connect_to 127.0.0.1 port 25565: failed.
+connect_to 127.0.0.1 port 25565: failed.
+connect_to 127.0.0.1 port 25565: failed.
+connect_to 127.0.0.1 port 25565: failed.
+connect_to 127.0.0.1 port 25565: failed.
+connect_to 127.0.0.1 port 25565: failed.
+connect_to 127.0.0.1 port 25565: failed.
+connect_to 127.0.0.1 port 25565: failed.
+connect_to 127.0.0.1 port 25565: failed.
+connect_to 127.0.0.1 port 25565: failed.
+connect_to 127.0.0.1 port 25565: failed.
+connect_to 127.0.0.1 port 25565: failed.
+connect_to 127.0.0.1 port 25565: failed.
+connect_to 127.0.0.1 port 25565: failed.
